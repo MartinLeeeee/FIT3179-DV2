@@ -1,0 +1,179 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "data": {
+    "url": "data/kangaroo_wallaby_state_year_2021_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Year": "number",
+        "Observations": "number"
+      }
+    }
+  },
+
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "Observations",
+          "as": "TotalObservations"
+        }
+      ],
+      "groupby": [
+        "Year",
+        "StateCode"
+      ]
+    }
+  ],
+
+  "facet": {
+    "field": "StateCode",
+    "type": "nominal",
+
+    "sort": [
+      "NSW",
+      "VIC",
+      "QLD",
+      "WA",
+      "SA",
+      "TAS",
+      "ACT",
+      "NT"
+    ],
+
+    "title": null,
+
+    "header": {
+      "labelFont": "Arial",
+      "labelFontSize": 15,
+      "labelFontWeight": "bold",
+      "labelColor": "#222222",
+      "labelPadding": 8
+    }
+  },
+
+  "columns": 4,
+
+  "spec": {
+    "width": 190,
+    "height": 145,
+
+    "layer": [
+      {
+        "mark": {
+          "type": "line",
+          "strokeWidth": 3,
+          "color": "#477b78"
+        },
+
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "quantitative",
+
+            "scale": {
+              "domain": [2021, 2025]
+            },
+
+            "axis": {
+              "title": null,
+              "values": [
+                2021,
+                2022,
+                2023,
+                2024,
+                2025
+              ],
+              "format": "d",
+              "labelAngle": 0,
+              "labelFontSize": 10,
+              "grid": false
+            }
+          },
+
+          "y": {
+            "field": "TotalObservations",
+            "type": "quantitative",
+
+            "axis": {
+              "title": null,
+              "format": "~s",
+              "labelFontSize": 10,
+              "grid": true,
+              "gridColor": "#e5e0d7",
+              "gridOpacity": 0.7
+            }
+          }
+        }
+      },
+
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "size": 65,
+          "color": "#477b78",
+          "stroke": "#fbf9f4",
+          "strokeWidth": 1
+        },
+
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "quantitative"
+          },
+
+          "y": {
+            "field": "TotalObservations",
+            "type": "quantitative"
+          },
+
+          "tooltip": [
+            {
+              "field": "StateCode",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "Year",
+              "type": "quantitative",
+              "title": "Year",
+              "format": "d"
+            },
+            {
+              "field": "TotalObservations",
+              "type": "quantitative",
+              "title": "Observation records",
+              "format": ","
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+
+  "spacing": 26,
+
+  "config": {
+    "background": "#fbf9f4",
+
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "domain": false,
+      "ticks": false,
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    }
+  }
+}
