@@ -1,0 +1,177 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 800,
+  "height": 540,
+
+  "projection": {
+    "type": "mercator",
+    "center": [134, -27],
+    "scale": 680
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+
+      "transform": [
+        {
+          "filter": "datum.id == 36"
+        }
+      ],
+
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e5dfd2",
+        "stroke": "#8b8579",
+        "strokeWidth": 1.2
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+
+        "format": {
+          "type": "csv",
+          "parse": {
+            "Latitude": "number",
+            "Longitude": "number",
+            "Observations": "number"
+          }
+        }
+      },
+
+      "transform": [
+        {
+          "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+        }
+      ],
+
+      "mark": {
+        "type": "circle",
+        "opacity": 0.7,
+        "stroke": "#ffffff",
+        "strokeWidth": 0.3,
+        "clip": true
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+
+        "size": {
+          "field": "Observations",
+          "type": "quantitative",
+
+          "scale": {
+            "type": "sqrt",
+            "range": [12, 420]
+          },
+
+          "legend": {
+            "title": "Observations",
+            "orient": "right"
+          }
+        },
+
+        "color": {
+          "field": "Species",
+          "type": "nominal",
+
+          "scale": {
+            "domain": [
+              "Red Kangaroo",
+              "Eastern Grey Kangaroo",
+              "Western Grey Kangaroo",
+              "Common Wallaroo",
+              "Swamp Wallaby",
+              "Red-necked Wallaby"
+            ],
+
+            "range": [
+              "#b55232",
+              "#657b62",
+              "#c99545",
+              "#81664d",
+              "#477b78",
+              "#8d6679"
+            ]
+          },
+
+          "legend": {
+            "title": "Species",
+            "orient": "right",
+            "labelLimit": 200,
+            "symbolSize": 110
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "Species",
+            "type": "nominal",
+            "title": "Species"
+          },
+
+          {
+            "field": "StateCode",
+            "type": "nominal",
+            "title": "State / Territory"
+          },
+
+          {
+            "field": "Observations",
+            "type": "quantitative",
+            "title": "Observations",
+            "format": ","
+          },
+
+          {
+            "field": "Latitude",
+            "type": "quantitative",
+            "title": "Latitude",
+            "format": ".2f"
+          },
+
+          {
+            "field": "Longitude",
+            "type": "quantitative",
+            "title": "Longitude",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "background": "#fbf9f4",
+
+    "view": {
+      "stroke": null
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titleFontWeight": "bold",
+      "padding": 10
+    }
+  }
+}

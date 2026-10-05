@@ -1,0 +1,713 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "vconcat": [
+    {
+      "hconcat": [
+        {
+          "title": {
+            "text": "Red Kangaroo",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "anchor": "middle"
+          },
+
+          "width": 280,
+          "height": 230,
+
+          "projection": {
+            "type": "mercator"
+          },
+
+          "layer": [
+            {
+              "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "countries"
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.id == 36"
+                }
+              ],
+
+              "mark": {
+                "type": "geoshape",
+                "fill": "#e5dfd2",
+                "stroke": "#8b8579",
+                "strokeWidth": 0.8
+              }
+            },
+
+            {
+              "data": {
+                "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+                "format": {
+                  "type": "csv",
+                  "parse": {
+                    "Latitude": "number",
+                    "Longitude": "number",
+                    "Observations": "number"
+                  }
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.Species == 'Red Kangaroo'"
+                },
+                {
+                  "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+                }
+              ],
+
+              "mark": {
+                "type": "circle",
+                "color": "#b55232",
+                "opacity": 0.7,
+                "stroke": "white",
+                "strokeWidth": 0.15
+              },
+
+              "encoding": {
+                "longitude": {
+                  "field": "Longitude",
+                  "type": "quantitative"
+                },
+
+                "latitude": {
+                  "field": "Latitude",
+                  "type": "quantitative"
+                },
+
+                "size": {
+                  "field": "Observations",
+                  "type": "quantitative",
+                  "scale": {
+                    "type": "sqrt",
+                    "domain": [1, 5000],
+                    "range": [4, 100],
+                    "clamp": true
+                  },
+                  "legend": null
+                },
+
+                "tooltip": [
+                  {
+                    "field": "Species",
+                    "type": "nominal",
+                    "title": "Species"
+                  },
+                  {
+                    "field": "StateCode",
+                    "type": "nominal",
+                    "title": "State"
+                  },
+                  {
+                    "field": "Observations",
+                    "type": "quantitative",
+                    "title": "Observations",
+                    "format": ","
+                  }
+                ]
+              }
+            }
+          ]
+        },
+
+        {
+          "title": {
+            "text": "Eastern Grey Kangaroo",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "anchor": "middle"
+          },
+
+          "width": 280,
+          "height": 230,
+
+          "projection": {
+            "type": "mercator"
+          },
+
+          "layer": [
+            {
+              "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "countries"
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.id == 36"
+                }
+              ],
+
+              "mark": {
+                "type": "geoshape",
+                "fill": "#e5dfd2",
+                "stroke": "#8b8579",
+                "strokeWidth": 0.8
+              }
+            },
+
+            {
+              "data": {
+                "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+                "format": {
+                  "type": "csv",
+                  "parse": {
+                    "Latitude": "number",
+                    "Longitude": "number",
+                    "Observations": "number"
+                  }
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.Species == 'Eastern Grey Kangaroo'"
+                },
+                {
+                  "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+                }
+              ],
+
+              "mark": {
+                "type": "circle",
+                "color": "#657b62",
+                "opacity": 0.7,
+                "stroke": "white",
+                "strokeWidth": 0.15
+              },
+
+              "encoding": {
+                "longitude": {
+                  "field": "Longitude",
+                  "type": "quantitative"
+                },
+
+                "latitude": {
+                  "field": "Latitude",
+                  "type": "quantitative"
+                },
+
+                "size": {
+                  "field": "Observations",
+                  "type": "quantitative",
+                  "scale": {
+                    "type": "sqrt",
+                    "domain": [1, 5000],
+                    "range": [4, 100],
+                    "clamp": true
+                  },
+                  "legend": null
+                },
+
+                "tooltip": [
+                  {
+                    "field": "Species",
+                    "type": "nominal",
+                    "title": "Species"
+                  },
+                  {
+                    "field": "StateCode",
+                    "type": "nominal",
+                    "title": "State"
+                  },
+                  {
+                    "field": "Observations",
+                    "type": "quantitative",
+                    "title": "Observations",
+                    "format": ","
+                  }
+                ]
+              }
+            }
+          ]
+        },
+
+        {
+          "title": {
+            "text": "Western Grey Kangaroo",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "anchor": "middle"
+          },
+
+          "width": 280,
+          "height": 230,
+
+          "projection": {
+            "type": "mercator"
+          },
+
+          "layer": [
+            {
+              "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "countries"
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.id == 36"
+                }
+              ],
+
+              "mark": {
+                "type": "geoshape",
+                "fill": "#e5dfd2",
+                "stroke": "#8b8579",
+                "strokeWidth": 0.8
+              }
+            },
+
+            {
+              "data": {
+                "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+                "format": {
+                  "type": "csv",
+                  "parse": {
+                    "Latitude": "number",
+                    "Longitude": "number",
+                    "Observations": "number"
+                  }
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.Species == 'Western Grey Kangaroo'"
+                },
+                {
+                  "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+                }
+              ],
+
+              "mark": {
+                "type": "circle",
+                "color": "#c99545",
+                "opacity": 0.7,
+                "stroke": "white",
+                "strokeWidth": 0.15
+              },
+
+              "encoding": {
+                "longitude": {
+                  "field": "Longitude",
+                  "type": "quantitative"
+                },
+
+                "latitude": {
+                  "field": "Latitude",
+                  "type": "quantitative"
+                },
+
+                "size": {
+                  "field": "Observations",
+                  "type": "quantitative",
+                  "scale": {
+                    "type": "sqrt",
+                    "domain": [1, 5000],
+                    "range": [4, 100],
+                    "clamp": true
+                  },
+                  "legend": null
+                },
+
+                "tooltip": [
+                  {
+                    "field": "Species",
+                    "type": "nominal",
+                    "title": "Species"
+                  },
+                  {
+                    "field": "StateCode",
+                    "type": "nominal",
+                    "title": "State"
+                  },
+                  {
+                    "field": "Observations",
+                    "type": "quantitative",
+                    "title": "Observations",
+                    "format": ","
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "hconcat": [
+        {
+          "title": {
+            "text": "Common Wallaroo",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "anchor": "middle"
+          },
+
+          "width": 280,
+          "height": 230,
+
+          "projection": {
+            "type": "mercator"
+          },
+
+          "layer": [
+            {
+              "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "countries"
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.id == 36"
+                }
+              ],
+
+              "mark": {
+                "type": "geoshape",
+                "fill": "#e5dfd2",
+                "stroke": "#8b8579",
+                "strokeWidth": 0.8
+              }
+            },
+
+            {
+              "data": {
+                "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+                "format": {
+                  "type": "csv",
+                  "parse": {
+                    "Latitude": "number",
+                    "Longitude": "number",
+                    "Observations": "number"
+                  }
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.Species == 'Common Wallaroo'"
+                },
+                {
+                  "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+                }
+              ],
+
+              "mark": {
+                "type": "circle",
+                "color": "#81664d",
+                "opacity": 0.7,
+                "stroke": "white",
+                "strokeWidth": 0.15
+              },
+
+              "encoding": {
+                "longitude": {
+                  "field": "Longitude",
+                  "type": "quantitative"
+                },
+
+                "latitude": {
+                  "field": "Latitude",
+                  "type": "quantitative"
+                },
+
+                "size": {
+                  "field": "Observations",
+                  "type": "quantitative",
+                  "scale": {
+                    "type": "sqrt",
+                    "domain": [1, 5000],
+                    "range": [4, 100],
+                    "clamp": true
+                  },
+                  "legend": null
+                },
+
+                "tooltip": [
+                  {
+                    "field": "Species",
+                    "type": "nominal",
+                    "title": "Species"
+                  },
+                  {
+                    "field": "StateCode",
+                    "type": "nominal",
+                    "title": "State"
+                  },
+                  {
+                    "field": "Observations",
+                    "type": "quantitative",
+                    "title": "Observations",
+                    "format": ","
+                  }
+                ]
+              }
+            }
+          ]
+        },
+
+        {
+          "title": {
+            "text": "Swamp Wallaby",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "anchor": "middle"
+          },
+
+          "width": 280,
+          "height": 230,
+
+          "projection": {
+            "type": "mercator"
+          },
+
+          "layer": [
+            {
+              "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "countries"
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.id == 36"
+                }
+              ],
+
+              "mark": {
+                "type": "geoshape",
+                "fill": "#e5dfd2",
+                "stroke": "#8b8579",
+                "strokeWidth": 0.8
+              }
+            },
+
+            {
+              "data": {
+                "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+                "format": {
+                  "type": "csv",
+                  "parse": {
+                    "Latitude": "number",
+                    "Longitude": "number",
+                    "Observations": "number"
+                  }
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.Species == 'Swamp Wallaby'"
+                },
+                {
+                  "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+                }
+              ],
+
+              "mark": {
+                "type": "circle",
+                "color": "#477b78",
+                "opacity": 0.7,
+                "stroke": "white",
+                "strokeWidth": 0.15
+              },
+
+              "encoding": {
+                "longitude": {
+                  "field": "Longitude",
+                  "type": "quantitative"
+                },
+
+                "latitude": {
+                  "field": "Latitude",
+                  "type": "quantitative"
+                },
+
+                "size": {
+                  "field": "Observations",
+                  "type": "quantitative",
+                  "scale": {
+                    "type": "sqrt",
+                    "domain": [1, 5000],
+                    "range": [4, 100],
+                    "clamp": true
+                  },
+                  "legend": null
+                },
+
+                "tooltip": [
+                  {
+                    "field": "Species",
+                    "type": "nominal",
+                    "title": "Species"
+                  },
+                  {
+                    "field": "StateCode",
+                    "type": "nominal",
+                    "title": "State"
+                  },
+                  {
+                    "field": "Observations",
+                    "type": "quantitative",
+                    "title": "Observations",
+                    "format": ","
+                  }
+                ]
+              }
+            }
+          ]
+        },
+
+        {
+          "title": {
+            "text": "Red-necked Wallaby",
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "anchor": "middle"
+          },
+
+          "width": 280,
+          "height": 230,
+
+          "projection": {
+            "type": "mercator"
+          },
+
+          "layer": [
+            {
+              "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "countries"
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.id == 36"
+                }
+              ],
+
+              "mark": {
+                "type": "geoshape",
+                "fill": "#e5dfd2",
+                "stroke": "#8b8579",
+                "strokeWidth": 0.8
+              }
+            },
+
+            {
+              "data": {
+                "url": "data/kangaroo_wallaby_map_grid_025deg_2021_2025.csv",
+                "format": {
+                  "type": "csv",
+                  "parse": {
+                    "Latitude": "number",
+                    "Longitude": "number",
+                    "Observations": "number"
+                  }
+                }
+              },
+
+              "transform": [
+                {
+                  "filter": "datum.Species == 'Red-necked Wallaby'"
+                },
+                {
+                  "filter": "datum.Longitude >= 112 && datum.Longitude <= 155 && datum.Latitude >= -45 && datum.Latitude <= -9"
+                }
+              ],
+
+              "mark": {
+                "type": "circle",
+                "color": "#8d6679",
+                "opacity": 0.7,
+                "stroke": "white",
+                "strokeWidth": 0.15
+              },
+
+              "encoding": {
+                "longitude": {
+                  "field": "Longitude",
+                  "type": "quantitative"
+                },
+
+                "latitude": {
+                  "field": "Latitude",
+                  "type": "quantitative"
+                },
+
+                "size": {
+                  "field": "Observations",
+                  "type": "quantitative",
+                  "scale": {
+                    "type": "sqrt",
+                    "domain": [1, 5000],
+                    "range": [4, 100],
+                    "clamp": true
+                  },
+                  "legend": null
+                },
+
+                "tooltip": [
+                  {
+                    "field": "Species",
+                    "type": "nominal",
+                    "title": "Species"
+                  },
+                  {
+                    "field": "StateCode",
+                    "type": "nominal",
+                    "title": "State"
+                  },
+                  {
+                    "field": "Observations",
+                    "type": "quantitative",
+                    "title": "Observations",
+                    "format": ","
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "spacing": 25,
+
+  "config": {
+    "background": "#fbf9f4",
+
+    "view": {
+      "stroke": null
+    }
+  }
+}

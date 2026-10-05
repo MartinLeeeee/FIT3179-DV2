@@ -1,13 +1,613 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>Hopping Across Australia</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
+
+  <!-- Vega -->
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
 </head>
 
+
+
 <body>
-  <h1>Hopping Across Australia</h1>
-  <p>Kangaroos and Wallabies Across Australia</p>
+
+
+  <!-- ==================================================
+       HERO
+  =================================================== -->
+
+
+  <header class="hero">
+
+
+    <div class="hero-text">
+
+      <h1>
+        Hopping Across Australia
+      </h1>
+
+
+      <p class="hero-subtitle">
+
+        How kangaroos and wallabies differ across Australia's states,
+        change over time, and align with rainfall patterns.
+
+      </p>
+
+    </div>
+
+
+
+    <div class="hero-image-wrap">
+
+      <img
+        src="images/kangaroo-hero.png"
+        alt="Cartoon kangaroo giving a thumbs up"
+        class="hero-image"
+      >
+
+    </div>
+
+
+  </header>
+
+
+
+  <!-- ==================================================
+       MAIN
+  =================================================== -->
+
+
+  <main>
+
+
+
+    <!-- ==================================================
+         SECTION 01
+    =================================================== -->
+
+
+    <section class="section">
+
+
+      <div class="section-heading">
+
+
+        <h2>
+          01 — Where Do They Live?
+        </h2>
+
+
+        <p>
+
+          Kangaroos and wallabies are found across Australia, but different
+          species show very different geographic patterns.
+
+        </p>
+
+
+      </div>
+
+
+
+      <!-- ==================================================
+           CHART 1
+      =================================================== -->
+
+
+      <div class="visualisation-card">
+
+
+        <div class="chart-header">
+
+
+          <div>
+
+
+            <h3>
+              Where are kangaroos and wallabies recorded?
+            </h3>
+
+
+            <p>
+
+              Atlas of Living Australia observation records, 2021–2025.
+              Circle size represents the number of observations in each
+              0.25° grid cell.
+
+            </p>
+
+
+          </div>
+
+
+
+          <!-- Species Filter -->
+
+
+          <div class="filter-box">
+
+
+            <label for="species-filter">
+              Species
+            </label>
+
+
+            <select id="species-filter">
+
+
+              <option value="All species">
+                All species
+              </option>
+
+
+              <option value="Red Kangaroo">
+                Red Kangaroo
+              </option>
+
+
+              <option value="Eastern Grey Kangaroo">
+                Eastern Grey Kangaroo
+              </option>
+
+
+              <option value="Western Grey Kangaroo">
+                Western Grey Kangaroo
+              </option>
+
+
+              <option value="Common Wallaroo">
+                Common Wallaroo
+              </option>
+
+
+              <option value="Swamp Wallaby">
+                Swamp Wallaby
+              </option>
+
+
+              <option value="Red-necked Wallaby">
+                Red-necked Wallaby
+              </option>
+
+
+            </select>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- MAP 1 -->
+
+
+        <div class="map1-wrapper">
+
+
+          <div id="map1"></div>
+
+
+
+          <!-- MAP 1 CALLOUT -->
+
+
+          <div class="map1-callout">
+
+
+            <h4>
+              Key takeaway
+            </h4>
+
+
+            <p>
+
+              Observation records are most concentrated in eastern and
+              south-eastern Australia. Western Grey Kangaroo records are
+              more visible in the south-west, while Red-necked Wallaby
+              stands out in Tasmania.
+
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- Map 1 Note -->
+
+
+        <p class="chart-note">
+
+          Note: Atlas of Living Australia observation records show where
+          animals were reported. They should not be interpreted as population
+          estimates.
+
+        </p>
+
+
+      </div>
+
+
+
+      <!-- ==================================================
+           CHART 2
+      =================================================== -->
+
+
+      <div class="visualisation-card">
+
+
+        <div class="chart-header">
+
+
+          <div>
+
+
+            <h3>
+              Six species, six different distributions
+            </h3>
+
+
+            <p>
+
+              Viewing each species separately reveals very different
+              geographic patterns across Australia.
+
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- Six Small Maps -->
+
+
+        <div id="map2"></div>
+
+
+
+        <!-- Encoding Explanation -->
+
+
+        <p class="chart-note">
+
+          Circle size represents the number of Atlas of Living Australia
+          observation records within each 0.25° grid cell.
+
+        </p>
+
+
+
+        <!-- ==================================================
+             MAP 2 INSIGHTS
+        =================================================== -->
+
+
+        <div class="map2-insights-below">
+
+
+
+          <!-- Insight 1 -->
+
+
+          <div class="insight-box">
+
+
+            <h4>
+              Eastern concentration
+            </h4>
+
+
+            <p>
+
+              Eastern Grey Kangaroo and Swamp Wallaby records cluster
+              strongly along eastern and south-eastern Australia.
+
+            </p>
+
+
+          </div>
+
+
+
+          <!-- Insight 2 -->
+
+
+          <div class="insight-box">
+
+
+            <h4>
+              Western pattern
+            </h4>
+
+
+            <p>
+
+              Western Grey Kangaroo records are concentrated mainly
+              across southern and western Australia.
+
+            </p>
+
+
+          </div>
+
+
+
+          <!-- Insight 3 -->
+
+
+          <div class="insight-box">
+
+
+            <h4>
+              Tasmania stands out
+            </h4>
+
+
+            <p>
+
+              Red-necked Wallaby records show a clear concentration
+              in Tasmania and parts of eastern Australia.
+
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- Main Takeaway -->
+
+
+        <div class="takeaway-box map2-takeaway">
+
+
+          <h4>
+            What stands out?
+          </h4>
+
+
+          <p>
+
+            The six species show clearly different recording patterns
+            across Australia. Observation records are especially dense
+            in coastal eastern Australia, while several kangaroo species
+            extend much further into inland and western regions.
+
+          </p>
+
+
+        </div>
+
+
+
+        <!-- Data Limitation -->
+
+
+        <p class="chart-note">
+
+          Note: Differences in observation density may also reflect where
+          people record wildlife. These records should not be treated as
+          direct measures of animal abundance.
+
+        </p>
+
+
+      </div>
+
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SECTION 02
+    =================================================== -->
+
+
+    <section class="section">
+
+
+      <div class="section-heading">
+
+
+        <h2>
+          02 — Different States, Different Species
+        </h2>
+
+
+        <p>
+
+          Kangaroo and wallaby records are not distributed evenly across
+          Australia. The mix of species differs substantially between
+          states and territories.
+
+        </p>
+
+
+      </div>
+
+
+
+      <!-- ==================================================
+           CHART 3
+      =================================================== -->
+
+
+      <div class="visualisation-card">
+
+
+        <div class="chart-header">
+
+
+          <div>
+
+
+            <h3>
+              Which species stand out in each state?
+            </h3>
+
+
+            <p>
+
+              Share of kangaroo and wallaby observation records by species
+              within each state and territory, 2021–2025.
+
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- Heatmap -->
+
+
+        <div id="chart3"></div>
+
+
+
+        <!-- Chart 3 Insights -->
+
+
+        <div class="heatmap-insights">
+
+
+
+          <div class="insight-box">
+
+
+            <h4>
+              East coast
+            </h4>
+
+
+            <p>
+
+              Eastern Grey Kangaroo and wallaby species account for a large
+              share of records in several eastern states.
+
+            </p>
+
+
+          </div>
+
+
+
+          <div class="insight-box">
+
+
+            <h4>
+              Western difference
+            </h4>
+
+
+            <p>
+
+              Western Grey Kangaroo contributes a much larger share of records
+              in Western Australia and South Australia.
+
+            </p>
+
+
+          </div>
+
+
+
+          <div class="insight-box">
+
+
+            <h4>
+              Tasmania
+            </h4>
+
+
+            <p>
+
+              Tasmania has a distinctive species mix, with Red-necked Wallaby
+              particularly prominent in the observation records.
+
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- Chart 3 Note -->
+
+
+        <p class="chart-note">
+
+          Percentages describe the composition of observation records within
+          each state. They do not represent the true proportion of animals
+          in the wild.
+
+        </p>
+
+
+      </div>
+
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- ==================================================
+       JAVASCRIPT
+  =================================================== -->
+
+
+  <script src="js/main.js"></script>
+
+
 </body>
+
+
 </html>

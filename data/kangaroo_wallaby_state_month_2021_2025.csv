@@ -1,0 +1,1744 @@
+Year,Month,State,StateCode,ScientificName,Species,AnimalGroup,Observations
+2021,1,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,13
+2021,1,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,1,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2021,1,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2021,1,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,5
+2021,1,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,519
+2021,1,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,219
+2021,1,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,16
+2021,1,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,10
+2021,1,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,590
+2021,1,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,32
+2021,1,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2021,1,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2021,1,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2021,1,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,100
+2021,1,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2021,1,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2021,1,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2021,1,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2021,1,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,12
+2021,1,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2021,1,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,73
+2021,1,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2021,1,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,66
+2021,1,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,11
+2021,2,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,8
+2021,2,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,2,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2021,2,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,4
+2021,2,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,508
+2021,2,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,277
+2021,2,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,18
+2021,2,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2021,2,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,668
+2021,2,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,2,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2021,2,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,14
+2021,2,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2021,2,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,2,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,12
+2021,2,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,393
+2021,2,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2021,2,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,129
+2021,2,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,71
+2021,2,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2021,2,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2021,2,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2021,2,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,61
+2021,2,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2021,2,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,54
+2021,2,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,9
+2021,3,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,18
+2021,3,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2021,3,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2021,3,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2021,3,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,855
+2021,3,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,479
+2021,3,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,56
+2021,3,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2021,3,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,2334
+2021,3,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,16
+2021,3,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,3,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2021,3,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2021,3,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2021,3,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,808
+2021,3,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2021,3,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,3,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,218
+2021,3,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,211
+2021,3,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,3,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,15
+2021,3,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2021,3,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,70
+2021,3,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2021,3,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,67
+2021,3,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2021,3,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,4,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,15
+2021,4,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2021,4,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2021,4,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2021,4,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1183
+2021,4,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,792
+2021,4,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,89
+2021,4,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,12
+2021,4,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,2728
+2021,4,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,24
+2021,4,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2021,4,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,4,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,20
+2021,4,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,156
+2021,4,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,178
+2021,4,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,42
+2021,4,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2021,4,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,4,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2021,4,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,13
+2021,4,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,84
+2021,4,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2021,4,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,66
+2021,4,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,7
+2021,5,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,22
+2021,5,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2021,5,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,5,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2021,5,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2021,5,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1091
+2021,5,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,607
+2021,5,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,45
+2021,5,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2021,5,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,1825
+2021,5,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,5,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,13
+2021,5,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,21
+2021,5,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,5,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2021,5,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,14
+2021,5,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,333
+2021,5,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,7
+2021,5,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2021,5,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,1018
+2021,5,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,321
+2021,5,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,31
+2021,5,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2021,5,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2021,5,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,190
+2021,5,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,46
+2021,5,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,7
+2021,6,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,14
+2021,6,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2021,6,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,6,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2021,6,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,269
+2021,6,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,818
+2021,6,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,249
+2021,6,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,31
+2021,6,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2021,6,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,804
+2021,6,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,11
+2021,6,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2021,6,Queensland,QLD,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2021,6,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,12
+2021,6,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,14
+2021,6,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2021,6,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2021,6,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2021,6,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,216
+2021,6,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,6,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,367
+2021,6,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,173
+2021,6,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,18
+2021,6,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,6,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2021,6,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2021,6,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,166
+2021,6,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2021,6,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,51
+2021,6,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2021,6,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,7,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,29
+2021,7,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2021,7,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,7,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2021,7,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,515
+2021,7,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,830
+2021,7,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,167
+2021,7,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,40
+2021,7,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2021,7,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,662
+2021,7,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,40
+2021,7,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,5
+2021,7,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,30
+2021,7,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,22
+2021,7,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2021,7,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,19
+2021,7,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,88
+2021,7,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2021,7,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2021,7,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2021,7,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2021,7,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,155
+2021,7,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2021,7,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,39
+2021,7,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,9
+2021,7,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,7,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2021,8,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,22
+2021,8,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2021,8,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2021,8,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2021,8,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,537
+2021,8,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,828
+2021,8,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,250
+2021,8,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,38
+2021,8,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2021,8,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,678
+2021,8,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,66
+2021,8,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2021,8,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,24
+2021,8,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,22
+2021,8,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,8,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2021,8,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,20
+2021,8,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,125
+2021,8,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2021,8,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,19
+2021,8,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2021,8,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2021,8,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2021,8,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,134
+2021,8,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,8,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2021,8,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,56
+2021,8,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,10
+2021,8,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,8,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2021,9,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,32
+2021,9,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2021,9,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2021,9,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2021,9,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,907
+2021,9,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,990
+2021,9,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,237
+2021,9,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,39
+2021,9,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,41
+2021,9,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,794
+2021,9,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,26
+2021,9,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2021,9,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,33
+2021,9,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,27
+2021,9,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,9,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2021,9,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,16
+2021,9,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,286
+2021,9,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,286
+2021,9,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,685
+2021,9,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2021,9,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,9,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,9,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,174
+2021,9,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2021,9,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,85
+2021,9,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,14
+2021,9,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,10,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,34
+2021,10,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,15
+2021,10,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2021,10,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2021,10,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,884
+2021,10,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,745
+2021,10,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,235
+2021,10,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,28
+2021,10,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2021,10,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,790
+2021,10,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2021,10,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,40
+2021,10,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,41
+2021,10,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2021,10,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2021,10,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,13
+2021,10,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,390
+2021,10,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,10,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2021,10,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,223
+2021,10,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,640
+2021,10,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2021,10,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,10,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2021,10,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2021,10,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,177
+2021,10,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2021,10,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,75
+2021,10,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,17
+2021,10,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2021,11,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,17
+2021,11,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2021,11,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,11,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2021,11,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,503
+2021,11,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,863
+2021,11,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,426
+2021,11,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,40
+2021,11,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,20
+2021,11,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,795
+2021,11,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,11,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,32
+2021,11,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2021,11,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,11,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,14
+2021,11,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,150
+2021,11,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2021,11,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,216
+2021,11,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,1138
+2021,11,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2021,11,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2021,11,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,4
+2021,11,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,95
+2021,11,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2021,11,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,73
+2021,11,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,8
+2021,12,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,11
+2021,12,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2021,12,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,12,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2021,12,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,342
+2021,12,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,722
+2021,12,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,301
+2021,12,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,38
+2021,12,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2021,12,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,780
+2021,12,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2021,12,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,28
+2021,12,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,12
+2021,12,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2021,12,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2021,12,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,115
+2021,12,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2021,12,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,51
+2021,12,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,213
+2021,12,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2021,12,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2021,12,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,19
+2021,12,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2021,12,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,100
+2021,12,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2021,12,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,62
+2021,12,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,9
+2022,1,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,12
+2022,1,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2022,1,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2022,1,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,249
+2022,1,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,591
+2022,1,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,279
+2022,1,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,27
+2022,1,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,228
+2022,1,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,704
+2022,1,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,38
+2022,1,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,12
+2022,1,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,1,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2022,1,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,133
+2022,1,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2022,1,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,1,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2022,1,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2022,1,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,32
+2022,1,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,7
+2022,1,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,120
+2022,1,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2022,1,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,63
+2022,1,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,24
+2022,2,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,22
+2022,2,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2022,2,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2022,2,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2022,2,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,674
+2022,2,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,555
+2022,2,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,388
+2022,2,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,36
+2022,2,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,1235
+2022,2,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,746
+2022,2,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,25
+2022,2,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,14
+2022,2,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,2,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2022,2,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,88
+2022,2,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2022,2,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,130
+2022,2,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,32
+2022,2,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2022,2,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2022,2,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,16
+2022,2,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2022,2,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,66
+2022,2,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2022,2,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,72
+2022,2,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2022,3,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,29
+2022,3,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2022,3,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,3,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2022,3,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,400
+2022,3,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,832
+2022,3,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,353
+2022,3,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,33
+2022,3,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,643
+2022,3,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,488
+2022,3,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2022,3,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,32
+2022,3,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2022,3,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,3,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2022,3,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,98
+2022,3,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2022,3,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,283
+2022,3,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,221
+2022,3,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2022,3,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2022,3,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,31
+2022,3,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,4
+2022,3,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,77
+2022,3,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2022,3,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,69
+2022,3,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2022,3,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,4,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,24
+2022,4,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2022,4,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2022,4,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2022,4,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2022,4,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,627
+2022,4,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,238
+2022,4,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,23
+2022,4,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2022,4,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,446
+2022,4,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,12
+2022,4,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,40
+2022,4,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,17
+2022,4,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2022,4,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2022,4,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,164
+2022,4,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2022,4,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,66
+2022,4,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,61
+2022,4,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2022,4,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,24
+2022,4,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,4
+2022,4,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,88
+2022,4,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2022,4,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,80
+2022,4,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,15
+2022,4,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,5,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,17
+2022,5,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2022,5,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2022,5,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2022,5,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2022,5,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,858
+2022,5,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,293
+2022,5,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,61
+2022,5,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2022,5,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,748
+2022,5,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,30
+2022,5,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,26
+2022,5,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,15
+2022,5,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,5,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,5,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,13
+2022,5,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,206
+2022,5,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,119
+2022,5,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,301
+2022,5,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2022,5,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2022,5,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2022,5,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2022,5,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,172
+2022,5,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2022,5,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,81
+2022,5,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,16
+2022,5,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2022,6,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,18
+2022,6,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2022,6,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,6,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2022,6,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2022,6,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,944
+2022,6,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,268
+2022,6,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,109
+2022,6,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2022,6,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,666
+2022,6,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,17
+2022,6,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,6,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,38
+2022,6,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2022,6,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2022,6,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2022,6,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,25
+2022,6,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,216
+2022,6,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,6
+2022,6,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2022,6,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,293
+2022,6,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,1072
+2022,6,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2022,6,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2022,6,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2022,6,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,136
+2022,6,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2022,6,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,6,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,69
+2022,6,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,8
+2022,6,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2022,7,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,21
+2022,7,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2022,7,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,7,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2022,7,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,11
+2022,7,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,995
+2022,7,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,224
+2022,7,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,128
+2022,7,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,16
+2022,7,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,683
+2022,7,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2022,7,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,45
+2022,7,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,37
+2022,7,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2022,7,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2022,7,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,13
+2022,7,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,177
+2022,7,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2022,7,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,328
+2022,7,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,982
+2022,7,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2022,7,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2022,7,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2022,7,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2022,7,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,130
+2022,7,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,79
+2022,7,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,29
+2022,7,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2022,7,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2022,8,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,29
+2022,8,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2022,8,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2022,8,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2022,8,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,10
+2022,8,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1365
+2022,8,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,361
+2022,8,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,256
+2022,8,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,23
+2022,8,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,670
+2022,8,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2022,8,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,42
+2022,8,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,18
+2022,8,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,10
+2022,8,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,11
+2022,8,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,30
+2022,8,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,230
+2022,8,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,25
+2022,8,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2022,8,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2022,8,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2022,8,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2022,8,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,131
+2022,8,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2022,8,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2022,8,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,65
+2022,8,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,20
+2022,8,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,8,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2022,9,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,33
+2022,9,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2022,9,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2022,9,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2022,9,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1150
+2022,9,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,624
+2022,9,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,89
+2022,9,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2022,9,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,551
+2022,9,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2022,9,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2022,9,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,29
+2022,9,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,19
+2022,9,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,9,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2022,9,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,21
+2022,9,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2196
+2022,9,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2022,9,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2022,9,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,603
+2022,9,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,554
+2022,9,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2022,9,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2022,9,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2022,9,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,124
+2022,9,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2022,9,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2022,9,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,94
+2022,9,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,24
+2022,9,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2022,10,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,30
+2022,10,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2022,10,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2022,10,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2022,10,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1370
+2022,10,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,225
+2022,10,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,230
+2022,10,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2022,10,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,516
+2022,10,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2022,10,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,10,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,37
+2022,10,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,26
+2022,10,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,10,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,10,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,22
+2022,10,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1075
+2022,10,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,7
+2022,10,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,249
+2022,10,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,210
+2022,10,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2022,10,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2022,10,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,9
+2022,10,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,129
+2022,10,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2022,10,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,93
+2022,10,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,21
+2022,11,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,25
+2022,11,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,15
+2022,11,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,14
+2022,11,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2022,11,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,924
+2022,11,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,290
+2022,11,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,39
+2022,11,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,13
+2022,11,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,674
+2022,11,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2022,11,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,40
+2022,11,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,17
+2022,11,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,11,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2022,11,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2022,11,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,287
+2022,11,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,562
+2022,11,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,148
+2022,11,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,13
+2022,11,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,45
+2022,11,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2022,11,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,80
+2022,11,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2022,11,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,54
+2022,11,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,15
+2022,11,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2022,12,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,26
+2022,12,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2022,12,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2022,12,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2022,12,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1093
+2022,12,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,358
+2022,12,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,179
+2022,12,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,10
+2022,12,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,597
+2022,12,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2022,12,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,46
+2022,12,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,23
+2022,12,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2022,12,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,12,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,15
+2022,12,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,258
+2022,12,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2022,12,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,864
+2022,12,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,206
+2022,12,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,60
+2022,12,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2022,12,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,42
+2022,12,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2022,12,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,57
+2022,12,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2022,12,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2022,12,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,67
+2022,12,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,15
+2022,12,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,1,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,37
+2023,1,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2023,1,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,1,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2023,1,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2023,1,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,646
+2023,1,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,192
+2023,1,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,80
+2023,1,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,12
+2023,1,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,494
+2023,1,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,1,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,44
+2023,1,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,37
+2023,1,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,1,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2023,1,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,12
+2023,1,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,234
+2023,1,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,1,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2023,1,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,660
+2023,1,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,161
+2023,1,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2023,1,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2023,1,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,49
+2023,1,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,5
+2023,1,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,114
+2023,1,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2023,1,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,88
+2023,1,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,11
+2023,1,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,2,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,22
+2023,2,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,2,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,2,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2023,2,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2023,2,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,403
+2023,2,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,132
+2023,2,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,35
+2023,2,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2023,2,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,785
+2023,2,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,2,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,48
+2023,2,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,25
+2023,2,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,2,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,12
+2023,2,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,158
+2023,2,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,2,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,2,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,114
+2023,2,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,20
+2023,2,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,19
+2023,2,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,25
+2023,2,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2023,2,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,74
+2023,2,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,2,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,78
+2023,2,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,13
+2023,3,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,18
+2023,3,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2023,3,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2023,3,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,12
+2023,3,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,680
+2023,3,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,121
+2023,3,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,76
+2023,3,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2023,3,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,612
+2023,3,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,3,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,30
+2023,3,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,18
+2023,3,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,3,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,3,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,20
+2023,3,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,115
+2023,3,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2023,3,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,3,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,11
+2023,3,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2023,3,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2023,3,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,5
+2023,3,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,48
+2023,3,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2023,3,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,96
+2023,3,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2023,3,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,98
+2023,3,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,22
+2023,4,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,36
+2023,4,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2023,4,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,4,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2023,4,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,38
+2023,4,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1077
+2023,4,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,284
+2023,4,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,136
+2023,4,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,29
+2023,4,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,555
+2023,4,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2023,4,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,56
+2023,4,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,29
+2023,4,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2023,4,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2023,4,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,26
+2023,4,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,224
+2023,4,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2023,4,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,4,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,131
+2023,4,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,532
+2023,4,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,26
+2023,4,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2023,4,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,7
+2023,4,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,114
+2023,4,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2023,4,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,95
+2023,4,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,38
+2023,4,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2023,4,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2023,5,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,12
+2023,5,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2023,5,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2023,5,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,42
+2023,5,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1123
+2023,5,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,194
+2023,5,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,79
+2023,5,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,32
+2023,5,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,427
+2023,5,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2023,5,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,48
+2023,5,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,26
+2023,5,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2023,5,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2023,5,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,30
+2023,5,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,275
+2023,5,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,10
+2023,5,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,273
+2023,5,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,976
+2023,5,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,15
+2023,5,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2023,5,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,18
+2023,5,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2023,5,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,108
+2023,5,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2023,5,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,5,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,87
+2023,5,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,25
+2023,5,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,6,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,33
+2023,6,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2023,6,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2023,6,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2023,6,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2023,6,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1255
+2023,6,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,284
+2023,6,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,210
+2023,6,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2023,6,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,610
+2023,6,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2023,6,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,49
+2023,6,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,16
+2023,6,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,5
+2023,6,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,21
+2023,6,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,194
+2023,6,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,6,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,6,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,172
+2023,6,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,451
+2023,6,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2023,6,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,6,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,20
+2023,6,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2023,6,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,127
+2023,6,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2023,6,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,133
+2023,6,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,12
+2023,6,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,7,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,28
+2023,7,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2023,7,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,7,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2023,7,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,8
+2023,7,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1176
+2023,7,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,253
+2023,7,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,135
+2023,7,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2023,7,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,582
+2023,7,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,91
+2023,7,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,38
+2023,7,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,12
+2023,7,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2023,7,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,45
+2023,7,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,113
+2023,7,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2023,7,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,7,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,83
+2023,7,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,58
+2023,7,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2023,7,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,7,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2023,7,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2023,7,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,99
+2023,7,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2023,7,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,68
+2023,7,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,29
+2023,7,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2023,7,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,8,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,34
+2023,8,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2023,8,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,8,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2023,8,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,140
+2023,8,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1070
+2023,8,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,250
+2023,8,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,45
+2023,8,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,25
+2023,8,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,341
+2023,8,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2023,8,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,76
+2023,8,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,43
+2023,8,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2023,8,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2023,8,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,28
+2023,8,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,115
+2023,8,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,8,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,131
+2023,8,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,78
+2023,8,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2023,8,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2023,8,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2023,8,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,7
+2023,8,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,105
+2023,8,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2023,8,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,8,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,89
+2023,8,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,23
+2023,8,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,8,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,9,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,35
+2023,9,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2023,9,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,9,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2023,9,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,109
+2023,9,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1437
+2023,9,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,242
+2023,9,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,54
+2023,9,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,26
+2023,9,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,363
+2023,9,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2023,9,Queensland,QLD,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2023,9,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,76
+2023,9,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,43
+2023,9,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,11
+2023,9,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,12
+2023,9,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,30
+2023,9,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,357
+2023,9,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2023,9,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,9,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,755
+2023,9,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,664
+2023,9,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,76
+2023,9,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,7
+2023,9,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,28
+2023,9,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2023,9,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,105
+2023,9,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2023,9,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,112
+2023,9,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,51
+2023,9,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,12
+2023,9,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2023,10,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,52
+2023,10,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2023,10,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,10,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,12
+2023,10,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,124
+2023,10,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1764
+2023,10,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,366
+2023,10,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,264
+2023,10,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,65
+2023,10,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,948
+2023,10,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,10,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,10,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,85
+2023,10,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,39
+2023,10,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,10,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2023,10,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,32
+2023,10,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,199
+2023,10,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2023,10,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,559
+2023,10,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,580
+2023,10,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,55
+2023,10,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,6
+2023,10,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,79
+2023,10,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,5
+2023,10,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,118
+2023,10,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2023,10,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,10,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,71
+2023,10,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,42
+2023,10,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,10,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,11,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,18
+2023,11,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2023,11,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2023,11,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,61
+2023,11,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1240
+2023,11,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,448
+2023,11,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,170
+2023,11,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,37
+2023,11,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,1004
+2023,11,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2023,11,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,82
+2023,11,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,58
+2023,11,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2023,11,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2023,11,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,31
+2023,11,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,598
+2023,11,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2023,11,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2023,11,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,276
+2023,11,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,61
+2023,11,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2023,11,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,9
+2023,11,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,58
+2023,11,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2023,11,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,112
+2023,11,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2023,11,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,129
+2023,11,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,29
+2023,11,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,12,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,21
+2023,12,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2023,12,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2023,12,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,33
+2023,12,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1200
+2023,12,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,315
+2023,12,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,130
+2023,12,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,24
+2023,12,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,910
+2023,12,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,72
+2023,12,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,56
+2023,12,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2023,12,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2023,12,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,17
+2023,12,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,194
+2023,12,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2023,12,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2023,12,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,53
+2023,12,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2023,12,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,6
+2023,12,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2023,12,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,65
+2023,12,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,5
+2023,12,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,100
+2023,12,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2023,12,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,99
+2023,12,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,25
+2023,12,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2023,12,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,1,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,26
+2024,1,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2024,1,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2024,1,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2024,1,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,34
+2024,1,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1044
+2024,1,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,339
+2024,1,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,127
+2024,1,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,16
+2024,1,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,668
+2024,1,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,57
+2024,1,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,45
+2024,1,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,1,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,19
+2024,1,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,117
+2024,1,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2024,1,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,1,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2024,1,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2024,1,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2024,1,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,30
+2024,1,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,79
+2024,1,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,8
+2024,1,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,118
+2024,1,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2024,1,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,113
+2024,1,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,32
+2024,1,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,1,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,2,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,20
+2024,2,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2024,2,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2024,2,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,19
+2024,2,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1087
+2024,2,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,257
+2024,2,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,303
+2024,2,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,31
+2024,2,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,502
+2024,2,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2024,2,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,52
+2024,2,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,23
+2024,2,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2024,2,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,16
+2024,2,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,134
+2024,2,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,2,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2024,2,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2024,2,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,6
+2024,2,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2024,2,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,86
+2024,2,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,64
+2024,2,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2024,2,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,96
+2024,2,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,30
+2024,2,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2024,3,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,15
+2024,3,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2024,3,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,3,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2024,3,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,45
+2024,3,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1107
+2024,3,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,308
+2024,3,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,142
+2024,3,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,37
+2024,3,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,503
+2024,3,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,3,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,3,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,49
+2024,3,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,20
+2024,3,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,3,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2024,3,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,26
+2024,3,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,94
+2024,3,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2024,3,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,19
+2024,3,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2024,3,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2024,3,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,5
+2024,3,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,75
+2024,3,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2024,3,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,145
+2024,3,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2024,3,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,109
+2024,3,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,27
+2024,3,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2024,3,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,4,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,26
+2024,4,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2024,4,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2024,4,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2024,4,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,26
+2024,4,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1568
+2024,4,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,332
+2024,4,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,214
+2024,4,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2024,4,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,548
+2024,4,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2024,4,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,63
+2024,4,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,27
+2024,4,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,4,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,4,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,26
+2024,4,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,100
+2024,4,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2024,4,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,4,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,30
+2024,4,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2024,4,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2024,4,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,26
+2024,4,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2024,4,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,187
+2024,4,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2024,4,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,138
+2024,4,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,26
+2024,4,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2024,4,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2024,5,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,19
+2024,5,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2024,5,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,5,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2024,5,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,30
+2024,5,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1338
+2024,5,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,364
+2024,5,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,204
+2024,5,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2024,5,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,479
+2024,5,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2024,5,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,65
+2024,5,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,31
+2024,5,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,10
+2024,5,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,12
+2024,5,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,34
+2024,5,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,136
+2024,5,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,52
+2024,5,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,51
+2024,5,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2024,5,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2024,5,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,16
+2024,5,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,13
+2024,5,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,102
+2024,5,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2024,5,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,86
+2024,5,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,15
+2024,5,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2024,6,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,32
+2024,6,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2024,6,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,6,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2024,6,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,65
+2024,6,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1158
+2024,6,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,323
+2024,6,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,99
+2024,6,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2024,6,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,443
+2024,6,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2024,6,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,74
+2024,6,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,19
+2024,6,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2024,6,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2024,6,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,33
+2024,6,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,163
+2024,6,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,6,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,73
+2024,6,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,27
+2024,6,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2024,6,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2024,6,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,7
+2024,6,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,162
+2024,6,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2024,6,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,97
+2024,6,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,40
+2024,6,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2024,7,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,29
+2024,7,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2024,7,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2024,7,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2024,7,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,32
+2024,7,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1562
+2024,7,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,381
+2024,7,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,199
+2024,7,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,16
+2024,7,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,650
+2024,7,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,7,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,82
+2024,7,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,46
+2024,7,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,17
+2024,7,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2024,7,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,32
+2024,7,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,172
+2024,7,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2024,7,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,7,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,95
+2024,7,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,56
+2024,7,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2024,7,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,20
+2024,7,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2024,7,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,155
+2024,7,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,8
+2024,7,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,89
+2024,7,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,41
+2024,7,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,22
+2024,7,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2024,8,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,46
+2024,8,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,7
+2024,8,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,8,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,6
+2024,8,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,4
+2024,8,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1533
+2024,8,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,403
+2024,8,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,191
+2024,8,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2024,8,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,686
+2024,8,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2024,8,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,93
+2024,8,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,39
+2024,8,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,11
+2024,8,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2024,8,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,31
+2024,8,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,159
+2024,8,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2024,8,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,119
+2024,8,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,23
+2024,8,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2024,8,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2024,8,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,26
+2024,8,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,116
+2024,8,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2024,8,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,8,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,94
+2024,8,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,40
+2024,8,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2024,8,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2024,9,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,33
+2024,9,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2024,9,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,9,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2024,9,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,11
+2024,9,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1587
+2024,9,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,401
+2024,9,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,170
+2024,9,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,21
+2024,9,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,722
+2024,9,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2024,9,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,73
+2024,9,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,55
+2024,9,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2024,9,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2024,9,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,36
+2024,9,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,276
+2024,9,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2024,9,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,9,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,231
+2024,9,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,22
+2024,9,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,1
+2024,9,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2024,9,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,51
+2024,9,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2024,9,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,232
+2024,9,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2024,9,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,185
+2024,9,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,77
+2024,9,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,10
+2024,10,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,46
+2024,10,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2024,10,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,10,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2024,10,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,26
+2024,10,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1825
+2024,10,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,286
+2024,10,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,210
+2024,10,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,58
+2024,10,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,707
+2024,10,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,10,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,10,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,90
+2024,10,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,50
+2024,10,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2024,10,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,10,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,30
+2024,10,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,165
+2024,10,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2024,10,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,151
+2024,10,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,58
+2024,10,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2024,10,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,5
+2024,10,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,50
+2024,10,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,14
+2024,10,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,160
+2024,10,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2024,10,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2024,10,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,128
+2024,10,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,47
+2024,10,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2024,10,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,11,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,26
+2024,11,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,12
+2024,11,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2024,11,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,10
+2024,11,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1240
+2024,11,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,320
+2024,11,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,249
+2024,11,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,15
+2024,11,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,652
+2024,11,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,18
+2024,11,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2024,11,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,72
+2024,11,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,55
+2024,11,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2024,11,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2024,11,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,27
+2024,11,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,127
+2024,11,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,5
+2024,11,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,11,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,79
+2024,11,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,10
+2024,11,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,6
+2024,11,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,8
+2024,11,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,55
+2024,11,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,18
+2024,11,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,100
+2024,11,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2024,11,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,11,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,107
+2024,11,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,41
+2024,11,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2024,12,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,11
+2024,12,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,11
+2024,12,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2024,12,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2024,12,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,14
+2024,12,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,767
+2024,12,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,148
+2024,12,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,57
+2024,12,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,41
+2024,12,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,377
+2024,12,Northern Territory,NT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2024,12,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,12,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,73
+2024,12,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,38
+2024,12,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2024,12,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2024,12,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,22
+2024,12,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,136
+2024,12,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2024,12,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,116
+2024,12,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,11
+2024,12,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2024,12,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,7
+2024,12,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,63
+2024,12,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,10
+2024,12,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,118
+2024,12,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2024,12,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,146
+2024,12,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,33
+2024,12,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2025,1,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,48
+2025,1,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,19
+2025,1,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,1,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2025,1,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,152
+2025,1,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,786
+2025,1,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,139
+2025,1,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,37
+2025,1,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,412
+2025,1,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,302
+2025,1,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,15
+2025,1,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,1,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,89
+2025,1,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,32
+2025,1,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2025,1,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,1,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,48
+2025,1,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,111
+2025,1,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2025,1,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,74
+2025,1,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,10
+2025,1,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2025,1,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2025,1,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,48
+2025,1,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,2
+2025,1,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,154
+2025,1,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,16
+2025,1,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,1,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,125
+2025,1,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,55
+2025,1,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2025,2,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,16
+2025,2,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2025,2,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,1
+2025,2,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2025,2,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,13
+2025,2,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,906
+2025,2,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,129
+2025,2,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,178
+2025,2,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,74
+2025,2,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,282
+2025,2,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,54
+2025,2,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,33
+2025,2,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2025,2,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,15
+2025,2,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,116
+2025,2,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,2,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2025,2,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,40
+2025,2,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2025,2,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2025,2,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,6
+2025,2,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,33
+2025,2,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2025,2,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,114
+2025,2,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2025,2,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,127
+2025,2,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,22
+2025,2,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,2,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2025,3,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,28
+2025,3,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,5
+2025,3,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,11
+2025,3,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,19
+2025,3,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1302
+2025,3,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,172
+2025,3,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,189
+2025,3,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,17
+2025,3,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,359
+2025,3,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2025,3,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,95
+2025,3,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,44
+2025,3,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2025,3,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,23
+2025,3,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,154
+2025,3,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,3,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2025,3,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,28
+2025,3,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,11
+2025,3,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2025,3,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,15
+2025,3,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,70
+2025,3,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,142
+2025,3,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2025,3,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,123
+2025,3,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,38
+2025,3,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,3,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,4,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,42
+2025,4,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,25
+2025,4,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,12
+2025,4,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,23
+2025,4,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1160
+2025,4,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,151
+2025,4,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,71
+2025,4,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,26
+2025,4,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,317
+2025,4,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,4,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,88
+2025,4,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,49
+2025,4,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2025,4,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,60
+2025,4,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,185
+2025,4,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2025,4,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,29
+2025,4,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2025,4,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,7
+2025,4,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,4,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,24
+2025,4,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2025,4,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,191
+2025,4,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,4
+2025,4,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,4,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,166
+2025,4,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,49
+2025,4,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2025,4,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,5,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,42
+2025,5,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,12
+2025,5,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2025,5,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,8
+2025,5,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,8
+2025,5,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1760
+2025,5,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,160
+2025,5,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,78
+2025,5,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2025,5,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,561
+2025,5,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,3
+2025,5,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,82
+2025,5,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,46
+2025,5,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2025,5,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,5,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,46
+2025,5,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,130
+2025,5,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2025,5,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,19
+2025,5,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,13
+2025,5,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2025,5,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,5,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,41
+2025,5,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,4
+2025,5,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,215
+2025,5,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2025,5,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2025,5,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,137
+2025,5,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,26
+2025,5,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2025,6,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,54
+2025,6,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,18
+2025,6,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2025,6,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,18
+2025,6,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,12
+2025,6,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2273
+2025,6,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,212
+2025,6,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,366
+2025,6,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,18
+2025,6,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,584
+2025,6,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2025,6,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,101
+2025,6,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,47
+2025,6,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,9
+2025,6,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,12
+2025,6,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,56
+2025,6,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,153
+2025,6,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2025,6,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2025,6,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,22
+2025,6,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2025,6,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,2
+2025,6,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2025,6,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,31
+2025,6,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2025,6,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,242
+2025,6,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,6
+2025,6,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,6,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,121
+2025,6,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,44
+2025,6,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2025,6,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,7,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,57
+2025,7,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2025,7,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,10
+2025,7,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2025,7,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,80
+2025,7,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,434
+2025,7,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,70
+2025,7,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,96
+2025,7,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,21
+2025,7,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,202
+2025,7,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2025,7,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,7,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,96
+2025,7,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,47
+2025,7,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,14
+2025,7,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,9
+2025,7,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,45
+2025,7,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,387
+2025,7,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2025,7,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2025,7,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,34
+2025,7,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,29
+2025,7,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,3
+2025,7,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,7,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,40
+2025,7,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,13
+2025,7,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,200
+2025,7,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2025,7,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,7,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,150
+2025,7,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,48
+2025,7,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,12
+2025,7,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,8,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,58
+2025,8,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,18
+2025,8,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2025,8,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,14
+2025,8,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,3
+2025,8,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,615
+2025,8,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,108
+2025,8,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,149
+2025,8,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2025,8,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,240
+2025,8,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,12
+2025,8,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,8,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,162
+2025,8,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,81
+2025,8,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2025,8,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,12
+2025,8,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,58
+2025,8,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,301
+2025,8,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2025,8,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,1
+2025,8,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,35
+2025,8,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,18
+2025,8,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,5
+2025,8,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,8,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,28
+2025,8,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2025,8,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,190
+2025,8,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,13
+2025,8,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,3
+2025,8,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,136
+2025,8,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,62
+2025,8,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,19
+2025,8,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,4
+2025,9,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,46
+2025,9,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2025,9,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,9,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,17
+2025,9,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,13
+2025,9,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,178
+2025,9,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,71
+2025,9,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,27
+2025,9,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2025,9,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,135
+2025,9,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,4
+2025,9,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,157
+2025,9,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,60
+2025,9,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,18
+2025,9,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,20
+2025,9,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,40
+2025,9,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,392
+2025,9,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2025,9,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,21
+2025,9,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,33
+2025,9,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,4
+2025,9,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,8
+2025,9,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,42
+2025,9,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,11
+2025,9,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,186
+2025,9,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,14
+2025,9,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,9,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,154
+2025,9,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,67
+2025,9,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2025,9,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,10,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,52
+2025,10,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,20
+2025,10,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,10,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,6
+2025,10,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,10
+2025,10,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1029
+2025,10,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,145
+2025,10,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,278
+2025,10,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,14
+2025,10,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,399
+2025,10,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,11
+2025,10,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,10,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,109
+2025,10,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,70
+2025,10,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,10
+2025,10,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,7
+2025,10,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,54
+2025,10,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,336
+2025,10,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2025,10,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,32
+2025,10,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,15
+2025,10,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,9
+2025,10,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2025,10,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,65
+2025,10,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,28
+2025,10,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,206
+2025,10,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2025,10,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,8
+2025,10,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,179
+2025,10,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,71
+2025,10,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,17
+2025,10,Western Australia,WA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,11,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,50
+2025,11,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,22
+2025,11,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,11,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,6
+2025,11,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,5
+2025,11,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,249
+2025,11,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,134
+2025,11,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,20
+2025,11,New South Wales,NSW,Osphranter rufus,Red Kangaroo,Kangaroo,6
+2025,11,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,196
+2025,11,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,7
+2025,11,Northern Territory,NT,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,11,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,92
+2025,11,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,50
+2025,11,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,12
+2025,11,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,10
+2025,11,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,46
+2025,11,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,103
+2025,11,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,1
+2025,11,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,3
+2025,11,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,18
+2025,11,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,37
+2025,11,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,22
+2025,11,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,3
+2025,11,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,122
+2025,11,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,9
+2025,11,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,166
+2025,11,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,9
+2025,11,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,11,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,152
+2025,11,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,104
+2025,11,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2025,12,Australian Capital Territory,ACT,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,65
+2025,12,Australian Capital Territory,ACT,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,33
+2025,12,Australian Capital Territory,ACT,Osphranter robustus,Common Wallaroo,Wallaroo,6
+2025,12,Australian Capital Territory,ACT,Wallabia bicolor,Swamp Wallaby,Wallaby,22
+2025,12,New South Wales,NSW,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,1
+2025,12,New South Wales,NSW,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,175
+2025,12,New South Wales,NSW,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,107
+2025,12,New South Wales,NSW,Osphranter robustus,Common Wallaroo,Wallaroo,17
+2025,12,New South Wales,NSW,Wallabia bicolor,Swamp Wallaby,Wallaby,100
+2025,12,Northern Territory,NT,Osphranter robustus,Common Wallaroo,Wallaroo,2
+2025,12,Queensland,QLD,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,104
+2025,12,Queensland,QLD,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,52
+2025,12,Queensland,QLD,Osphranter robustus,Common Wallaroo,Wallaroo,5
+2025,12,Queensland,QLD,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,12,Queensland,QLD,Wallabia bicolor,Swamp Wallaby,Wallaby,30
+2025,12,South Australia,SA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,104
+2025,12,South Australia,SA,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,4
+2025,12,South Australia,SA,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,2
+2025,12,South Australia,SA,Osphranter robustus,Common Wallaroo,Wallaroo,8
+2025,12,South Australia,SA,Osphranter rufus,Red Kangaroo,Kangaroo,1
+2025,12,South Australia,SA,Wallabia bicolor,Swamp Wallaby,Wallaby,10
+2025,12,Tasmania,TAS,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,2
+2025,12,Tasmania,TAS,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,64
+2025,12,Victoria,VIC,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,6
+2025,12,Victoria,VIC,Macropus giganteus,Eastern Grey Kangaroo,Kangaroo,151
+2025,12,Victoria,VIC,Notamacropus rufogriseus,Red-necked Wallaby,Wallaby,10
+2025,12,Victoria,VIC,Osphranter rufus,Red Kangaroo,Kangaroo,2
+2025,12,Victoria,VIC,Wallabia bicolor,Swamp Wallaby,Wallaby,133
+2025,12,Western Australia,WA,Macropus fuliginosus,Western Grey Kangaroo,Kangaroo,42
+2025,12,Western Australia,WA,Osphranter robustus,Common Wallaroo,Wallaroo,4

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 820,
+  "height": 380,
+
+  "data": {
+    "url": "data/kangaroo_wallaby_state_year_2021_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Observations": "number"
+      }
+    }
+  },
+
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "Observations",
+          "as": "SpeciesObservations"
+        }
+      ],
+      "groupby": [
+        "StateCode",
+        "Species"
+      ]
+    },
+
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "SpeciesObservations",
+          "as": "StateTotal"
+        }
+      ],
+      "groupby": [
+        "StateCode"
+      ]
+    },
+
+    {
+      "calculate": "datum.SpeciesObservations / datum.StateTotal",
+      "as": "Share"
+    }
+  ],
+
+  "mark": {
+    "type": "rect",
+    "cornerRadius": 4,
+    "stroke": "#fbf9f4",
+    "strokeWidth": 3
+  },
+
+  "encoding": {
+
+    "x": {
+      "field": "Species",
+      "type": "nominal",
+
+      "sort": [
+        "Red Kangaroo",
+        "Eastern Grey Kangaroo",
+        "Western Grey Kangaroo",
+        "Common Wallaroo",
+        "Swamp Wallaby",
+        "Red-necked Wallaby"
+      ],
+
+      "axis": {
+        "title": null,
+        "labelAngle": -25,
+        "labelFontSize": 12,
+        "labelLimit": 160,
+        "labelPadding": 10
+      }
+    },
+
+    "y": {
+      "field": "StateCode",
+      "type": "nominal",
+
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "TAS",
+        "ACT",
+        "NT"
+      ],
+
+      "axis": {
+        "title": null,
+        "labelFontSize": 13,
+        "labelFontWeight": "bold",
+        "labelPadding": 8
+      }
+    },
+
+    "color": {
+      "field": "Share",
+      "type": "quantitative",
+
+      "scale": {
+        "domain": [0, 1],
+        "range": [
+          "#f1ede3",
+          "#477b78"
+        ]
+      },
+
+      "legend": {
+        "title": "Share of state records",
+        "format": ".0%",
+        "orient": "right"
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "StateCode",
+        "type": "nominal",
+        "title": "State"
+      },
+
+      {
+        "field": "Species",
+        "type": "nominal",
+        "title": "Species"
+      },
+
+      {
+        "field": "SpeciesObservations",
+        "type": "quantitative",
+        "title": "Observations",
+        "format": ","
+      },
+
+      {
+        "field": "Share",
+        "type": "quantitative",
+        "title": "Share",
+        "format": ".1%"
+      }
+    ]
+  },
+
+  "config": {
+
+    "background": "#fbf9f4",
+
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "domain": false,
+      "ticks": false,
+      "grid": false,
+      "labelFont": "Arial"
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    }
+  }
+}
