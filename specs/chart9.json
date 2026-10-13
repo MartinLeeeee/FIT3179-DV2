@@ -1,0 +1,338 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "data": {
+    "url": "data/rainfall_population_2020_2023.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Year": "number",
+        "Rainfall_mm": "number",
+        "Population": "number"
+      }
+    }
+  },
+
+  "transform": [
+    {
+      "calculate": "datum.Year == 2020 ? datum.Rainfall_mm : null",
+      "as": "BaseRainfallCandidate"
+    },
+    {
+      "calculate": "datum.Year == 2020 ? datum.Population : null",
+      "as": "BasePopulationCandidate"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "max",
+          "field": "BaseRainfallCandidate",
+          "as": "BaseRainfall"
+        },
+        {
+          "op": "max",
+          "field": "BasePopulationCandidate",
+          "as": "BasePopulation"
+        }
+      ],
+      "groupby": [
+        "StateCode"
+      ]
+    },
+    {
+      "calculate": "datum.Rainfall_mm / datum.BaseRainfall * 100",
+      "as": "RainfallIndex"
+    },
+    {
+      "calculate": "datum.Population / datum.BasePopulation * 100",
+      "as": "PopulationIndex"
+    },
+    {
+      "fold": [
+        "RainfallIndex",
+        "PopulationIndex"
+      ],
+      "as": [
+        "Metric",
+        "Index"
+      ]
+    },
+    {
+      "calculate": "datum.Metric == 'RainfallIndex' ? 'Rainfall' : 'Monitored population'",
+      "as": "Series"
+    },
+    {
+      "calculate": "datum.Series == 'Rainfall' ? format(datum.Rainfall_mm, '.0f') + ' mm' : format(datum.Population, ',')",
+      "as": "ActualValue"
+    }
+  ],
+
+  "facet": {
+    "row": {
+      "field": "StateCode",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "QLD",
+        "SA",
+        "VIC",
+        "WA"
+      ],
+      "title": null,
+      "header": {
+        "labelFont": "Arial",
+        "labelFontSize": 17,
+        "labelFontWeight": "bold",
+        "labelColor": "#222222",
+        "labelAngle": 0,
+        "labelPadding": 14
+      }
+    }
+  },
+
+  "spec": {
+    "width": 790,
+    "height": 105,
+
+    "layer": [
+
+      {
+        "mark": {
+          "type": "rule",
+          "strokeDash": [
+            4,
+            4
+          ],
+          "strokeWidth": 1,
+          "color": "#bdb8ae"
+        },
+
+        "encoding": {
+          "y": {
+            "datum": 100
+          }
+        }
+      },
+
+      {
+        "mark": {
+          "type": "line",
+          "strokeWidth": 3.5,
+          "point": false
+        },
+
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "sort": [
+              2020,
+              2021,
+              2022,
+              2023
+            ],
+            "title": null,
+            "axis": {
+              "labelAngle": 0,
+              "labelFontSize": 12,
+              "labelPadding": 7,
+              "ticks": false,
+              "domain": false
+            }
+          },
+
+          "y": {
+            "field": "Index",
+            "type": "quantitative",
+            "title": "Index",
+            "scale": {
+              "domain": [
+                65,
+                145
+              ]
+            },
+            "axis": {
+              "values": [
+                80,
+                100,
+                120,
+                140
+              ],
+              "labelFontSize": 11,
+              "titleFontSize": 11,
+              "grid": true,
+              "gridColor": "#e5e0d7",
+              "gridOpacity": 0.75,
+              "ticks": false,
+              "domain": false
+            }
+          },
+
+          "color": {
+            "field": "Series",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Rainfall",
+                "Monitored population"
+              ],
+              "range": [
+                "#c99545",
+                "#477b78"
+              ]
+            },
+            "legend": {
+              "title": null,
+              "orient": "top",
+              "direction": "horizontal",
+              "labelFont": "Arial",
+              "labelFontSize": 12,
+              "symbolStrokeWidth": 4,
+              "symbolSize": 150
+            }
+          },
+
+          "strokeDash": {
+            "field": "Series",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Rainfall",
+                "Monitored population"
+              ],
+              "range": [
+                [
+                  7,
+                  5
+                ],
+                [
+                  1,
+                  0
+                ]
+              ]
+            },
+            "legend": null
+          },
+
+          "detail": {
+            "field": "Series"
+          },
+
+          "order": {
+            "field": "Year",
+            "type": "quantitative"
+          }
+        }
+      },
+
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "size": 120,
+          "stroke": "#fbf9f4",
+          "strokeWidth": 2
+        },
+
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "sort": [
+              2020,
+              2021,
+              2022,
+              2023
+            ]
+          },
+
+          "y": {
+            "field": "Index",
+            "type": "quantitative",
+            "scale": {
+              "domain": [
+                65,
+                145
+              ]
+            }
+          },
+
+          "color": {
+            "field": "Series",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Rainfall",
+                "Monitored population"
+              ],
+              "range": [
+                "#c99545",
+                "#477b78"
+              ]
+            },
+            "legend": null
+          },
+
+          "tooltip": [
+            {
+              "field": "State",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "Year",
+              "type": "ordinal",
+              "title": "Year"
+            },
+            {
+              "field": "Series",
+              "type": "nominal",
+              "title": "Series"
+            },
+            {
+              "field": "ActualValue",
+              "type": "nominal",
+              "title": "Actual value"
+            },
+            {
+              "field": "Index",
+              "type": "quantitative",
+              "title": "Index (2020 = 100)",
+              "format": ".1f"
+            }
+          ]
+        }
+      }
+
+    ]
+  },
+
+  "resolve": {
+    "scale": {
+      "y": "shared"
+    }
+  },
+
+  "spacing": 16,
+
+  "config": {
+
+    "background": "#fbf9f4",
+
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#4a4742",
+      "titleColor": "#4a4742"
+    },
+
+    "legend": {
+      "labelColor": "#4a4742"
+    }
+
+  }
+}

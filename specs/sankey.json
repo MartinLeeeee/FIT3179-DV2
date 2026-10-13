@@ -1,0 +1,683 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+
+  "width": 1000,
+  "height": 700,
+
+  "padding": {
+    "left": 10,
+    "right": 10,
+    "top": 45,
+    "bottom": 20
+  },
+
+  "background": "#fbf9f4",
+
+  "data": [
+
+    {
+      "name": "links",
+
+      "url": "data/kangaroo_wallaby_state_year_2021_2025.csv",
+
+      "format": {
+        "type": "csv",
+        "parse": {
+          "Observations": "number"
+        }
+      },
+
+      "transform": [
+
+        {
+          "type": "aggregate",
+
+          "groupby": [
+            "State",
+            "StateCode",
+            "Species"
+          ],
+
+          "fields": [
+            "Observations"
+          ],
+
+          "ops": [
+            "sum"
+          ],
+
+          "as": [
+            "Observations"
+          ]
+        },
+
+
+        {
+          "type": "joinaggregate",
+
+          "groupby": [
+            "State",
+            "StateCode"
+          ],
+
+          "fields": [
+            "Observations"
+          ],
+
+          "ops": [
+            "sum"
+          ],
+
+          "as": [
+            "StateTotal"
+          ]
+        },
+
+
+        {
+          "type": "formula",
+          "as": "Share",
+          "expr": "datum.Observations / datum.StateTotal"
+        },
+
+
+        {
+          "type": "formula",
+          "as": "StateOrder",
+
+          "expr": "datum.StateCode === 'QLD' ? 0 : datum.StateCode === 'NSW' ? 1 : datum.StateCode === 'ACT' ? 2 : datum.StateCode === 'VIC' ? 3 : datum.StateCode === 'TAS' ? 4 : datum.StateCode === 'SA' ? 5 : datum.StateCode === 'NT' ? 6 : 7"
+        },
+
+
+        {
+          "type": "formula",
+          "as": "SpeciesOrder",
+
+          "expr": "datum.Species === 'Swamp Wallaby' ? 0 : datum.Species === 'Red-necked Wallaby' ? 1 : datum.Species === 'Eastern Grey Kangaroo' ? 2 : datum.Species === 'Common Wallaroo' ? 3 : datum.Species === 'Red Kangaroo' ? 4 : 5"
+        },
+
+
+        {
+          "type": "stack",
+
+          "field": "Share",
+
+          "sort": {
+            "field": [
+              "StateOrder",
+              "SpeciesOrder"
+            ],
+
+            "order": [
+              "ascending",
+              "ascending"
+            ]
+          },
+
+          "as": [
+            "left0",
+            "left1"
+          ]
+        },
+
+
+        {
+          "type": "stack",
+
+          "field": "Share",
+
+          "sort": {
+            "field": [
+              "SpeciesOrder",
+              "StateOrder"
+            ],
+
+            "order": [
+              "ascending",
+              "ascending"
+            ]
+          },
+
+          "as": [
+            "right0",
+            "right1"
+          ]
+        }
+
+      ]
+    },
+
+
+    {
+      "name": "stateNodes",
+
+      "source": "links",
+
+      "transform": [
+
+        {
+          "type": "aggregate",
+
+          "groupby": [
+            "State",
+            "StateCode",
+            "StateOrder"
+          ],
+
+          "fields": [
+            "left0",
+            "left1"
+          ],
+
+          "ops": [
+            "min",
+            "max"
+          ],
+
+          "as": [
+            "y0",
+            "y1"
+          ]
+        }
+
+      ]
+    },
+
+
+    {
+      "name": "speciesNodes",
+
+      "source": "links",
+
+      "transform": [
+
+        {
+          "type": "aggregate",
+
+          "groupby": [
+            "Species",
+            "SpeciesOrder"
+          ],
+
+          "fields": [
+            "right0",
+            "right1"
+          ],
+
+          "ops": [
+            "min",
+            "max"
+          ],
+
+          "as": [
+            "y0",
+            "y1"
+          ]
+        }
+
+      ]
+    }
+
+  ],
+
+
+  "scales": [
+
+    {
+      "name": "yscale",
+
+      "type": "linear",
+
+      "domain": [
+        0,
+        8
+      ],
+
+      "range": [
+        40,
+        650
+      ],
+
+      "zero": false
+    },
+
+
+    {
+      "name": "speciesColor",
+
+      "type": "ordinal",
+
+      "domain": [
+        "Swamp Wallaby",
+        "Red-necked Wallaby",
+        "Eastern Grey Kangaroo",
+        "Common Wallaroo",
+        "Red Kangaroo",
+        "Western Grey Kangaroo"
+      ],
+
+      "range": [
+        "#477b78",
+        "#8d6679",
+        "#657b62",
+        "#81664d",
+        "#b55232",
+        "#c99545"
+      ]
+    }
+
+  ],
+
+
+  "marks": [
+
+    {
+      "type": "text",
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 235
+          },
+
+          "y": {
+            "value": 15
+          },
+
+          "text": {
+            "value": "STATE / TERRITORY"
+          },
+
+          "align": {
+            "value": "center"
+          },
+
+          "font": {
+            "value": "Arial"
+          },
+
+          "fontSize": {
+            "value": 13
+          },
+
+          "fontWeight": {
+            "value": "bold"
+          },
+
+          "fill": {
+            "value": "#55514a"
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "text",
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 745
+          },
+
+          "y": {
+            "value": 15
+          },
+
+          "text": {
+            "value": "SPECIES"
+          },
+
+          "align": {
+            "value": "center"
+          },
+
+          "font": {
+            "value": "Arial"
+          },
+
+          "fontSize": {
+            "value": 13
+          },
+
+          "fontWeight": {
+            "value": "bold"
+          },
+
+          "fill": {
+            "value": "#55514a"
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "text",
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 490
+          },
+
+          "y": {
+            "value": 15
+          },
+
+          "text": {
+            "value": "Ribbon width = share of each state's observation records"
+          },
+
+          "align": {
+            "value": "center"
+          },
+
+          "font": {
+            "value": "Arial"
+          },
+
+          "fontSize": {
+            "value": 11
+          },
+
+          "fontStyle": {
+            "value": "italic"
+          },
+
+          "fill": {
+            "value": "#777168"
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "path",
+
+      "from": {
+        "data": "links"
+      },
+
+      "encode": {
+
+        "enter": {
+
+          "path": {
+            "signal": "'M260,' + scale('yscale', datum.left0) + ' C475,' + scale('yscale', datum.left0) + ' 525,' + scale('yscale', datum.right0) + ' 720,' + scale('yscale', datum.right0) + ' L720,' + scale('yscale', datum.right1) + ' C525,' + scale('yscale', datum.right1) + ' 475,' + scale('yscale', datum.left1) + ' 260,' + scale('yscale', datum.left1) + ' Z'"
+          },
+
+          "fill": {
+            "scale": "speciesColor",
+            "field": "Species"
+          },
+
+          "fillOpacity": {
+            "value": 0.35
+          },
+
+          "stroke": {
+            "scale": "speciesColor",
+            "field": "Species"
+          },
+
+          "strokeOpacity": {
+            "value": 0.12
+          },
+
+          "strokeWidth": {
+            "value": 0.5
+          },
+
+          "tooltip": {
+            "signal": "datum.State + ' → ' + datum.Species + '\\n' + format(datum.Share, '.1%') + ' of state records\\n' + format(datum.Observations, ',') + ' observations'"
+          }
+
+        },
+
+
+        "hover": {
+
+          "fillOpacity": {
+            "value": 0.8
+          },
+
+          "strokeOpacity": {
+            "value": 0.7
+          },
+
+          "strokeWidth": {
+            "value": 1.5
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "rect",
+
+      "from": {
+        "data": "stateNodes"
+      },
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 215
+          },
+
+          "x2": {
+            "value": 260
+          },
+
+          "y": {
+            "scale": "yscale",
+            "field": "y0"
+          },
+
+          "y2": {
+            "scale": "yscale",
+            "field": "y1"
+          },
+
+          "fill": {
+            "value": "#d8d4cb"
+          },
+
+          "stroke": {
+            "value": "#fbf9f4"
+          },
+
+          "strokeWidth": {
+            "value": 2
+          },
+
+          "tooltip": {
+            "signal": "datum.State"
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "text",
+
+      "from": {
+        "data": "stateNodes"
+      },
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 200
+          },
+
+          "y": {
+            "signal": "(scale('yscale', datum.y0) + scale('yscale', datum.y1)) / 2"
+          },
+
+          "text": {
+            "field": "StateCode"
+          },
+
+          "align": {
+            "value": "right"
+          },
+
+          "baseline": {
+            "value": "middle"
+          },
+
+          "font": {
+            "value": "Arial"
+          },
+
+          "fontSize": {
+            "value": 13
+          },
+
+          "fontWeight": {
+            "value": "bold"
+          },
+
+          "fill": {
+            "value": "#333333"
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "rect",
+
+      "from": {
+        "data": "speciesNodes"
+      },
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 720
+          },
+
+          "x2": {
+            "value": 765
+          },
+
+          "y": {
+            "scale": "yscale",
+            "field": "y0"
+          },
+
+          "y2": {
+            "scale": "yscale",
+            "field": "y1"
+          },
+
+          "fill": {
+            "scale": "speciesColor",
+            "field": "Species"
+          },
+
+          "stroke": {
+            "value": "#fbf9f4"
+          },
+
+          "strokeWidth": {
+            "value": 2
+          },
+
+          "tooltip": {
+            "signal": "datum.Species"
+          }
+
+        }
+
+      }
+    },
+
+
+    {
+      "type": "text",
+
+      "from": {
+        "data": "speciesNodes"
+      },
+
+      "encode": {
+
+        "enter": {
+
+          "x": {
+            "value": 780
+          },
+
+          "y": {
+            "signal": "(scale('yscale', datum.y0) + scale('yscale', datum.y1)) / 2"
+          },
+
+          "text": {
+            "field": "Species"
+          },
+
+          "align": {
+            "value": "left"
+          },
+
+          "baseline": {
+            "value": "middle"
+          },
+
+          "font": {
+            "value": "Arial"
+          },
+
+          "fontSize": {
+            "value": 12
+          },
+
+          "fontWeight": {
+            "value": "bold"
+          },
+
+          "fill": {
+            "scale": "speciesColor",
+            "field": "Species"
+          }
+
+        }
+
+      }
+    }
+
+  ]
+}

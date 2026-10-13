@@ -2,779 +2,208 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "data": {
-    "values": []
+    "url": "data/dcceew_population_2020_2023.csv",
+
+    "format": {
+      "type": "csv",
+
+      "parse": {
+        "Year": "number",
+        "Population": "number"
+      }
+    }
   },
 
-  "background": "#fbf9f4",
-
-  "spacing": 35,
-
-  "vconcat": [
-
-    {
-      "hconcat": [
-
-        {
-          "width": 250,
-          "height": 190,
-
-          "title": {
-            "text": "NSW/ACT",
-            "anchor": "middle",
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "offset": 10
-          },
-
-          "transform": [
-            {
-              "filter": "datum.Region === 'NSW/ACT'"
-            }
-          ],
-
-          "layer": [
-
-            {
-              "transform": [
-                {
-                  "regression": "Observations",
-                  "on": "Rainfall_mm"
-                }
-              ],
-
-              "mark": {
-                "type": "line",
-                "color": "#b7ab98",
-                "strokeWidth": 2.5,
-                "strokeDash": [6, 5],
-                "opacity": 0.8
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                }
-              }
-            },
-
-            {
-              "mark": {
-                "type": "point",
-                "filled": true,
-                "size": 110,
-                "color": "#477b78",
-                "stroke": "#fbf9f4",
-                "strokeWidth": 1.5
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  },
-
-                  "axis": {
-                    "title": "Annual rainfall (mm)",
-                    "tickCount": 5,
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative",
-
-                  "axis": {
-                    "title": "Observation records",
-                    "format": "~s",
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "tooltip": [
-                  {
-                    "field": "Region",
-                    "title": "Region"
-                  },
-                  {
-                    "field": "Year",
-                    "title": "Year",
-                    "format": "d"
-                  },
-                  {
-                    "field": "Rainfall_mm",
-                    "title": "Rainfall (mm)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "Observations",
-                    "title": "Observation records",
-                    "format": ","
-                  }
-                ]
-              }
-            },
-
-            {
-              "mark": {
-                "type": "text",
-                "dx": 9,
-                "dy": -9,
-                "fontSize": 10,
-                "fontWeight": "bold",
-                "color": "#55514a"
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                },
-
-                "text": {
-                  "field": "Year",
-                  "type": "quantitative",
-                  "format": "d"
-                }
-              }
-            }
-
-          ]
-        },
-
-
-        {
-          "width": 250,
-          "height": 190,
-
-          "title": {
-            "text": "VIC",
-            "anchor": "middle",
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "offset": 10
-          },
-
-          "transform": [
-            {
-              "filter": "datum.Region === 'VIC'"
-            }
-          ],
-
-          "layer": [
-
-            {
-              "transform": [
-                {
-                  "regression": "Observations",
-                  "on": "Rainfall_mm"
-                }
-              ],
-
-              "mark": {
-                "type": "line",
-                "color": "#b7ab98",
-                "strokeWidth": 2.5,
-                "strokeDash": [6, 5],
-                "opacity": 0.8
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                }
-              }
-            },
-
-            {
-              "mark": {
-                "type": "point",
-                "filled": true,
-                "size": 110,
-                "color": "#477b78",
-                "stroke": "#fbf9f4",
-                "strokeWidth": 1.5
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  },
-
-                  "axis": {
-                    "title": "Annual rainfall (mm)",
-                    "tickCount": 5,
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative",
-
-                  "axis": {
-                    "title": "Observation records",
-                    "format": "~s",
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "tooltip": [
-                  {
-                    "field": "Region",
-                    "title": "Region"
-                  },
-                  {
-                    "field": "Year",
-                    "title": "Year",
-                    "format": "d"
-                  },
-                  {
-                    "field": "Rainfall_mm",
-                    "title": "Rainfall (mm)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "Observations",
-                    "title": "Observation records",
-                    "format": ","
-                  }
-                ]
-              }
-            },
-
-            {
-              "mark": {
-                "type": "text",
-                "dx": 9,
-                "dy": -9,
-                "fontSize": 10,
-                "fontWeight": "bold",
-                "color": "#55514a"
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                },
-
-                "text": {
-                  "field": "Year",
-                  "type": "quantitative",
-                  "format": "d"
-                }
-              }
-            }
-
-          ]
-        },
-
-
-        {
-          "width": 250,
-          "height": 190,
-
-          "title": {
-            "text": "QLD",
-            "anchor": "middle",
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "offset": 10
-          },
-
-          "transform": [
-            {
-              "filter": "datum.Region === 'QLD'"
-            }
-          ],
-
-          "layer": [
-
-            {
-              "transform": [
-                {
-                  "regression": "Observations",
-                  "on": "Rainfall_mm"
-                }
-              ],
-
-              "mark": {
-                "type": "line",
-                "color": "#b7ab98",
-                "strokeWidth": 2.5,
-                "strokeDash": [6, 5],
-                "opacity": 0.8
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                }
-              }
-            },
-
-            {
-              "mark": {
-                "type": "point",
-                "filled": true,
-                "size": 110,
-                "color": "#477b78",
-                "stroke": "#fbf9f4",
-                "strokeWidth": 1.5
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  },
-
-                  "axis": {
-                    "title": "Annual rainfall (mm)",
-                    "tickCount": 5,
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative",
-
-                  "axis": {
-                    "title": "Observation records",
-                    "format": "~s",
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "tooltip": [
-                  {
-                    "field": "Region",
-                    "title": "Region"
-                  },
-                  {
-                    "field": "Year",
-                    "title": "Year",
-                    "format": "d"
-                  },
-                  {
-                    "field": "Rainfall_mm",
-                    "title": "Rainfall (mm)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "Observations",
-                    "title": "Observation records",
-                    "format": ","
-                  }
-                ]
-              }
-            },
-
-            {
-              "mark": {
-                "type": "text",
-                "dx": 9,
-                "dy": -9,
-                "fontSize": 10,
-                "fontWeight": "bold",
-                "color": "#55514a"
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                },
-
-                "text": {
-                  "field": "Year",
-                  "type": "quantitative",
-                  "format": "d"
-                }
-              }
-            }
-
-          ]
-        }
-
-      ]
-    },
-
-
-    {
-      "hconcat": [
-
-        {
-          "width": 250,
-          "height": 190,
-
-          "title": {
-            "text": "SA",
-            "anchor": "middle",
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "offset": 10
-          },
-
-          "transform": [
-            {
-              "filter": "datum.Region === 'SA'"
-            }
-          ],
-
-          "layer": [
-
-            {
-              "transform": [
-                {
-                  "regression": "Observations",
-                  "on": "Rainfall_mm"
-                }
-              ],
-
-              "mark": {
-                "type": "line",
-                "color": "#b7ab98",
-                "strokeWidth": 2.5,
-                "strokeDash": [6, 5],
-                "opacity": 0.8
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                }
-              }
-            },
-
-            {
-              "mark": {
-                "type": "point",
-                "filled": true,
-                "size": 110,
-                "color": "#477b78",
-                "stroke": "#fbf9f4",
-                "strokeWidth": 1.5
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  },
-
-                  "axis": {
-                    "title": "Annual rainfall (mm)",
-                    "tickCount": 5,
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative",
-
-                  "axis": {
-                    "title": "Observation records",
-                    "format": "~s",
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "tooltip": [
-                  {
-                    "field": "Region",
-                    "title": "Region"
-                  },
-                  {
-                    "field": "Year",
-                    "title": "Year",
-                    "format": "d"
-                  },
-                  {
-                    "field": "Rainfall_mm",
-                    "title": "Rainfall (mm)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "Observations",
-                    "title": "Observation records",
-                    "format": ","
-                  }
-                ]
-              }
-            },
-
-            {
-              "mark": {
-                "type": "text",
-                "dx": 9,
-                "dy": -9,
-                "fontSize": 10,
-                "fontWeight": "bold",
-                "color": "#55514a"
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                },
-
-                "text": {
-                  "field": "Year",
-                  "type": "quantitative",
-                  "format": "d"
-                }
-              }
-            }
-
-          ]
-        },
-
-
-        {
-          "width": 250,
-          "height": 190,
-
-          "title": {
-            "text": "WA",
-            "anchor": "middle",
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "offset": 10
-          },
-
-          "transform": [
-            {
-              "filter": "datum.Region === 'WA'"
-            }
-          ],
-
-          "layer": [
-
-            {
-              "transform": [
-                {
-                  "regression": "Observations",
-                  "on": "Rainfall_mm"
-                }
-              ],
-
-              "mark": {
-                "type": "line",
-                "color": "#b7ab98",
-                "strokeWidth": 2.5,
-                "strokeDash": [6, 5],
-                "opacity": 0.8
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                }
-              }
-            },
-
-            {
-              "mark": {
-                "type": "point",
-                "filled": true,
-                "size": 110,
-                "color": "#477b78",
-                "stroke": "#fbf9f4",
-                "strokeWidth": 1.5
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  },
-
-                  "axis": {
-                    "title": "Annual rainfall (mm)",
-                    "tickCount": 5,
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative",
-
-                  "axis": {
-                    "title": "Observation records",
-                    "format": "~s",
-                    "grid": true,
-                    "gridColor": "#e5e0d7"
-                  }
-                },
-
-                "tooltip": [
-                  {
-                    "field": "Region",
-                    "title": "Region"
-                  },
-                  {
-                    "field": "Year",
-                    "title": "Year",
-                    "format": "d"
-                  },
-                  {
-                    "field": "Rainfall_mm",
-                    "title": "Rainfall (mm)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "Observations",
-                    "title": "Observation records",
-                    "format": ","
-                  }
-                ]
-              }
-            },
-
-            {
-              "mark": {
-                "type": "text",
-                "dx": 9,
-                "dy": -9,
-                "fontSize": 10,
-                "fontWeight": "bold",
-                "color": "#55514a"
-              },
-
-              "encoding": {
-                "x": {
-                  "field": "Rainfall_mm",
-                  "type": "quantitative",
-                  "scale": {
-                    "domain": [0, 900]
-                  }
-                },
-
-                "y": {
-                  "field": "Observations",
-                  "type": "quantitative"
-                },
-
-                "text": {
-                  "field": "Year",
-                  "type": "quantitative",
-                  "format": "d"
-                }
-              }
-            }
-
-          ]
-        }
-
-      ]
+  "facet": {
+    "field": "StateCode",
+    "type": "nominal",
+
+    "sort": [
+      "NSW",
+      "QLD",
+      "SA",
+      "VIC",
+      "WA"
+    ],
+
+    "title": null,
+
+    "header": {
+      "labelFont": "Arial",
+      "labelFontSize": 16,
+      "labelFontWeight": "bold",
+      "labelColor": "#222222",
+      "labelPadding": 10
     }
+  },
 
-  ],
+  "columns": 3,
+
+  "spec": {
+    "width": 260,
+    "height": 190,
+
+    "layer": [
+
+      {
+        "mark": {
+          "type": "line",
+          "strokeWidth": 3.5,
+          "color": "#657b62"
+        },
+
+        "encoding": {
+
+          "x": {
+            "field": "Year",
+            "type": "quantitative",
+
+            "scale": {
+              "domain": [
+                2020,
+                2023
+              ]
+            },
+
+            "axis": {
+              "title": null,
+
+              "values": [
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+
+              "format": "d",
+
+              "labelAngle": 0,
+              "labelFontSize": 11,
+
+              "grid": false
+            }
+          },
+
+          "y": {
+            "field": "Population",
+            "type": "quantitative",
+
+            "axis": {
+              "title": "Estimated population",
+              "format": "~s",
+              "labelFontSize": 10,
+              "titleFontSize": 11,
+
+              "grid": true,
+              "gridColor": "#e5e0d7",
+              "gridOpacity": 0.8
+            }
+          }
+
+        }
+      },
+
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "size": 105,
+          "color": "#657b62",
+          "stroke": "#fbf9f4",
+          "strokeWidth": 1.5
+        },
+
+        "encoding": {
+
+          "x": {
+            "field": "Year",
+            "type": "quantitative"
+          },
+
+          "y": {
+            "field": "Population",
+            "type": "quantitative"
+          },
+
+          "tooltip": [
+
+            {
+              "field": "State",
+              "type": "nominal",
+              "title": "State"
+            },
+
+            {
+              "field": "Year",
+              "type": "quantitative",
+              "title": "Survey year",
+              "format": "d"
+            },
+
+            {
+              "field": "Population",
+              "type": "quantitative",
+              "title": "Estimated population",
+              "format": ","
+            }
+
+          ]
+        }
+      },
+
+      {
+        "transform": [
+          {
+            "filter": "datum.Year === 2023"
+          }
+        ],
+
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 8,
+          "dy": -8,
+          "fontSize": 10,
+          "fontWeight": "bold",
+          "color": "#55514a"
+        },
+
+        "encoding": {
+
+          "x": {
+            "field": "Year",
+            "type": "quantitative"
+          },
+
+          "y": {
+            "field": "Population",
+            "type": "quantitative"
+          },
+
+          "text": {
+            "field": "Population",
+            "type": "quantitative",
+            "format": ".3s"
+          }
+
+        }
+      }
+
+    ]
+  },
+
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+
+  "spacing": 30,
 
   "config": {
+
+    "background": "#fbf9f4",
 
     "view": {
       "stroke": null
@@ -784,9 +213,7 @@
       "domain": false,
       "ticks": false,
       "labelFont": "Arial",
-      "titleFont": "Arial",
-      "labelFontSize": 10,
-      "titleFontSize": 11
+      "titleFont": "Arial"
     }
 
   }

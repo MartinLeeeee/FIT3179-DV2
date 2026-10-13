@@ -1,0 +1,390 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 760,
+  "height": 500,
+
+  "data": {
+    "values": [
+      {
+        "State": "Northern Territory",
+        "StateCode": "NT",
+        "Column": 1,
+        "Row": 0,
+        "Population": null,
+        "PopulationLabel": "No comparable estimate",
+        "Available": false
+      },
+      {
+        "State": "Queensland",
+        "StateCode": "QLD",
+        "Column": 2,
+        "Row": 0,
+        "Population": 17727700,
+        "PopulationLabel": "17.7M",
+        "Available": true
+      },
+      {
+        "State": "Western Australia",
+        "StateCode": "WA",
+        "Column": 0,
+        "Row": 1,
+        "Population": 1695390,
+        "PopulationLabel": "1.70M",
+        "Available": true
+      },
+      {
+        "State": "South Australia",
+        "StateCode": "SA",
+        "Column": 1,
+        "Row": 1,
+        "Population": 3910821,
+        "PopulationLabel": "3.91M",
+        "Available": true
+      },
+      {
+        "State": "New South Wales",
+        "StateCode": "NSW",
+        "Column": 2,
+        "Row": 1,
+        "Population": 9634900,
+        "PopulationLabel": "9.63M",
+        "Available": true
+      },
+      {
+        "State": "Australian Capital Territory",
+        "StateCode": "ACT",
+        "Column": 3,
+        "Row": 1,
+        "Population": null,
+        "PopulationLabel": "No comparable estimate",
+        "Available": false
+      },
+      {
+        "State": "Victoria",
+        "StateCode": "VIC",
+        "Column": 2,
+        "Row": 2,
+        "Population": 2230500,
+        "PopulationLabel": "2.23M",
+        "Available": true
+      },
+      {
+        "State": "Tasmania",
+        "StateCode": "TAS",
+        "Column": 2,
+        "Row": 3,
+        "Population": null,
+        "PopulationLabel": "No comparable estimate",
+        "Available": false
+      }
+    ]
+  },
+
+  "layer": [
+
+    {
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 14,
+        "stroke": "#d8d3ca",
+        "strokeWidth": 1.5
+      },
+
+      "encoding": {
+
+        "x": {
+          "field": "Column",
+          "type": "ordinal",
+          "axis": null
+        },
+
+        "y": {
+          "field": "Row",
+          "type": "ordinal",
+          "axis": null
+        },
+
+        "color": {
+          "value": "#ece9e2"
+        },
+
+        "tooltip": [
+          {
+            "field": "State",
+            "type": "nominal",
+            "title": "State / Territory"
+          },
+          {
+            "field": "PopulationLabel",
+            "type": "nominal",
+            "title": "2023 monitored population"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Available === true"
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "Population",
+              "as": "FiveStateTotal"
+            }
+          ]
+        },
+        {
+          "calculate": "datum.Population / datum.FiveStateTotal",
+          "as": "Share"
+        }
+      ],
+
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 14,
+        "stroke": "#fbf9f4",
+        "strokeWidth": 4
+      },
+
+      "encoding": {
+
+        "x": {
+          "field": "Column",
+          "type": "ordinal",
+          "axis": null
+        },
+
+        "y": {
+          "field": "Row",
+          "type": "ordinal",
+          "axis": null
+        },
+
+        "color": {
+          "field": "Population",
+          "type": "quantitative",
+          "title": "2023 monitored population",
+
+          "scale": {
+            "domain": [
+              0,
+              18000000
+            ],
+
+            "range": [
+              "#e3ebe5",
+              "#3f7059"
+            ]
+          },
+
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": 280,
+            "gradientThickness": 12,
+            "format": "~s",
+            "titleFontSize": 11,
+            "labelFontSize": 10
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "State",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "Population",
+            "type": "quantitative",
+            "title": "2023 monitored population",
+            "format": ","
+          },
+          {
+            "field": "Share",
+            "type": "quantitative",
+            "title": "Share of five-state total",
+            "format": ".1%"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Available === true"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "font": "Arial",
+        "fontSize": 21,
+        "fontWeight": "bold",
+        "dy": -17
+      },
+
+      "encoding": {
+
+        "x": {
+          "field": "Column",
+          "type": "ordinal"
+        },
+
+        "y": {
+          "field": "Row",
+          "type": "ordinal"
+        },
+
+        "text": {
+          "field": "StateCode"
+        },
+
+        "color": {
+          "condition": {
+            "test": "datum.Population > 6000000",
+            "value": "#ffffff"
+          },
+          "value": "#26352d"
+        }
+      }
+    },
+
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Available === true"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "font": "Arial",
+        "fontSize": 17,
+        "fontWeight": "bold",
+        "dy": 15
+      },
+
+      "encoding": {
+
+        "x": {
+          "field": "Column",
+          "type": "ordinal"
+        },
+
+        "y": {
+          "field": "Row",
+          "type": "ordinal"
+        },
+
+        "text": {
+          "field": "PopulationLabel"
+        },
+
+        "color": {
+          "condition": {
+            "test": "datum.Population > 6000000",
+            "value": "#ffffff"
+          },
+          "value": "#26352d"
+        }
+      }
+    },
+
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Available === false"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "font": "Arial",
+        "fontSize": 19,
+        "fontWeight": "bold",
+        "color": "#8f8b84",
+        "dy": -12
+      },
+
+      "encoding": {
+
+        "x": {
+          "field": "Column",
+          "type": "ordinal"
+        },
+
+        "y": {
+          "field": "Row",
+          "type": "ordinal"
+        },
+
+        "text": {
+          "field": "StateCode"
+        }
+      }
+    },
+
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Available === false"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "font": "Arial",
+        "fontSize": 10,
+        "color": "#9a968f",
+        "dy": 15
+      },
+
+      "encoding": {
+
+        "x": {
+          "field": "Column",
+          "type": "ordinal"
+        },
+
+        "y": {
+          "field": "Row",
+          "type": "ordinal"
+        },
+
+        "text": {
+          "field": "PopulationLabel"
+        }
+      }
+    }
+
+  ],
+
+  "config": {
+
+    "background": "#fbf9f4",
+
+    "view": {
+      "stroke": null
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#55514a",
+      "titleColor": "#222222"
+    }
+
+  }
+}

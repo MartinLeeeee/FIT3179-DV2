@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta
@@ -16,10 +17,10 @@
     href="css/style.css"
   >
 
-  <!-- Vega -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
 </head>
 
 
@@ -40,7 +41,8 @@
 
       <p class="hero-subtitle">
         How kangaroos and wallabies differ across Australia's states,
-        change over time, and align with rainfall patterns.
+        change over time, and connect with population monitoring,
+        wildlife management and rainfall.
       </p>
 
     </div>
@@ -60,10 +62,6 @@
 
 
 
-  <!-- ==================================================
-       MAIN
-  =================================================== -->
-
   <main>
 
 
@@ -74,6 +72,7 @@
 
     <section class="section">
 
+
       <div class="section-heading">
 
         <h2>
@@ -82,18 +81,19 @@
 
         <p>
           Kangaroos and wallabies are found across Australia, but different
-          species show very different geographic patterns.
+          species show very different geographic patterns. We begin with
+          individual observation locations, then step back to compare how
+          each species is distributed across states and territories.
         </p>
 
       </div>
 
 
 
-      <!-- ==================================================
-           CHART 1
-      =================================================== -->
+      <!-- MAP 1 -->
 
       <div class="visualisation-card">
+
 
         <div class="chart-header">
 
@@ -120,33 +120,13 @@
 
             <select id="species-filter">
 
-              <option value="All species">
-                All species
-              </option>
-
-              <option value="Red Kangaroo">
-                Red Kangaroo
-              </option>
-
-              <option value="Eastern Grey Kangaroo">
-                Eastern Grey Kangaroo
-              </option>
-
-              <option value="Western Grey Kangaroo">
-                Western Grey Kangaroo
-              </option>
-
-              <option value="Common Wallaroo">
-                Common Wallaroo
-              </option>
-
-              <option value="Swamp Wallaby">
-                Swamp Wallaby
-              </option>
-
-              <option value="Red-necked Wallaby">
-                Red-necked Wallaby
-              </option>
+              <option value="All species">All species</option>
+              <option value="Red Kangaroo">Red Kangaroo</option>
+              <option value="Eastern Grey Kangaroo">Eastern Grey Kangaroo</option>
+              <option value="Western Grey Kangaroo">Western Grey Kangaroo</option>
+              <option value="Common Wallaroo">Common Wallaroo</option>
+              <option value="Swamp Wallaby">Swamp Wallaby</option>
+              <option value="Red-necked Wallaby">Red-necked Wallaby</option>
 
             </select>
 
@@ -155,13 +135,9 @@
         </div>
 
 
-
-        <!-- MAP 1 -->
-
         <div class="map1-wrapper">
 
           <div id="map1"></div>
-
 
           <div class="map1-callout">
 
@@ -182,8 +158,8 @@
 
 
         <p class="chart-note">
-          Note: Atlas of Living Australia observation records show where
-          animals were reported. They should not be interpreted as population
+          Atlas of Living Australia observation records show where animals
+          were reported. They should not be interpreted as population
           estimates.
         </p>
 
@@ -191,23 +167,24 @@
 
 
 
-      <!-- ==================================================
-           CHART 2
-      =================================================== -->
+      <!-- MAP 2 -->
 
       <div class="visualisation-card">
+
 
         <div class="chart-header">
 
           <div>
 
             <h3>
-              Six species, six different distributions
+              Six species, six different state-level footprints
             </h3>
 
             <p>
-              Viewing each species separately reveals very different
-              geographic patterns across Australia.
+              Each map shows how a species' observation records are distributed
+              across Australian states and territories from 2021–2025.
+              Darker states account for a larger share of that species'
+              observation records.
             </p>
 
           </div>
@@ -218,27 +195,18 @@
         <div id="map2"></div>
 
 
-        <p class="chart-note">
-          Circle size represents the number of Atlas of Living Australia
-          observation records within each 0.25° grid cell.
-        </p>
-
-
-
-        <!-- MAP 2 INSIGHTS -->
-
         <div class="map2-insights-below">
 
-
           <div class="insight-box">
 
             <h4>
-              Eastern concentration
+              Eastern species concentrate in NSW
             </h4>
 
             <p>
-              Eastern Grey Kangaroo and Swamp Wallaby records cluster
-              strongly along eastern and south-eastern Australia.
+              New South Wales accounts for a particularly large share of
+              Eastern Grey Kangaroo, Swamp Wallaby and Red-necked Wallaby
+              observation records.
             </p>
 
           </div>
@@ -247,12 +215,13 @@
           <div class="insight-box">
 
             <h4>
-              Western pattern
+              South Australia tells a different story
             </h4>
 
             <p>
-              Western Grey Kangaroo records are concentrated mainly
-              across southern and western Australia.
+              Red Kangaroo, Western Grey Kangaroo and Common Wallaroo records
+              are much more strongly represented across southern Australia,
+              especially South Australia.
             </p>
 
           </div>
@@ -261,12 +230,13 @@
           <div class="insight-box">
 
             <h4>
-              Tasmania stands out
+              One national map hides regional identities
             </h4>
 
             <p>
-              Red-necked Wallaby records show a clear concentration
-              in Tasmania and parts of eastern Australia.
+              Separating the six species reveals state-level patterns that
+              are much harder to see when all observation records are shown
+              together.
             </p>
 
           </div>
@@ -274,30 +244,30 @@
         </div>
 
 
-
         <div class="takeaway-box map2-takeaway">
 
           <h4>
-            What stands out?
+            From geography to composition
           </h4>
 
           <p>
-            The six species show clearly different recording patterns
-            across Australia. Observation records are especially dense
-            in coastal eastern Australia, while several kangaroo species
-            extend much further into inland and western regions.
+            Different species occupy very different state-level recording
+            profiles. The next section turns the question around: instead of
+            asking where each species is recorded, which species make up the
+            profile of each state?
           </p>
 
         </div>
 
 
         <p class="chart-note">
-          Note: Differences in observation density may also reflect where
-          people record wildlife. These records should not be treated as
-          direct measures of animal abundance.
+          Colour represents each state's share of all 2021–2025 ALA
+          observation records for that species, not the share of its true
+          population.
         </p>
 
       </div>
+
 
     </section>
 
@@ -309,6 +279,7 @@
 
     <section class="section">
 
+
       <div class="section-heading">
 
         <h2>
@@ -316,18 +287,17 @@
         </h2>
 
         <p>
-          Kangaroo and wallaby records are not distributed evenly across
-          Australia. The mix of species differs substantially between
-          states and territories.
+          The maps reveal where each species is recorded. Looking from the
+          opposite direction reveals another story: each state has its own
+          distinctive mixture of kangaroos and wallabies — and those
+          relationships can also change through time.
         </p>
 
       </div>
 
 
 
-      <!-- ==================================================
-           CHART 3
-      =================================================== -->
+      <!-- CHART 3 -->
 
       <div class="visualisation-card">
 
@@ -352,50 +322,47 @@
         <div id="chart3"></div>
 
 
-
         <div class="heatmap-insights">
 
-
           <div class="insight-box">
-
-            <h4>
-              East coast
-            </h4>
-
+            <h4>East coast</h4>
             <p>
               Eastern Grey Kangaroo and wallaby species account for a large
-              share of records in several eastern states.
+              share of observation records in several eastern states.
             </p>
-
           </div>
 
-
           <div class="insight-box">
-
-            <h4>
-              Western difference
-            </h4>
-
+            <h4>Western difference</h4>
             <p>
               Western Grey Kangaroo contributes a much larger share of
               records in Western Australia and South Australia.
             </p>
-
           </div>
-
 
           <div class="insight-box">
-
-            <h4>
-              Tasmania
-            </h4>
-
+            <h4>Tasmania stands apart</h4>
             <p>
               Tasmania has a distinctive species mix, with Red-necked Wallaby
-              particularly prominent in the observation records.
+              particularly prominent in its observation records.
             </p>
-
           </div>
+
+        </div>
+
+
+        <div class="takeaway-box">
+
+          <h4>
+            The matrix reveals composition — but not the flow of relationships
+          </h4>
+
+          <p>
+            The heatmap makes precise comparisons possible, but the strongest
+            state-to-species relationships are spread across many cells.
+            Following those relationships as flows makes regional identities
+            easier to recognise.
+          </p>
 
         </div>
 
@@ -410,9 +377,197 @@
 
 
 
-      <!-- ==================================================
-           CHART 4
-      =================================================== -->
+      <!-- SANKEY -->
+
+      <div class="visualisation-card">
+
+        <div class="chart-header">
+
+          <div>
+
+            <h3>
+              Which species characterise each state?
+            </h3>
+
+            <p>
+              This normalised alluvial diagram connects each state and
+              territory to the six focal species. Every state receives the
+              same total visual weight, so ribbon width represents the share
+              of that state's observation records belonging to each species.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="sankey-story-intro">
+
+          <p>
+            The heatmap showed the full state-by-species matrix. Following
+            those same relationships as flows makes the strongest regional
+            identities easier to recognise.
+          </p>
+
+        </div>
+
+
+        <div id="sankey"></div>
+
+
+        <p class="map-interaction-hint">
+          Hover over a ribbon to see the state, species and share of
+          observation records.
+        </p>
+
+
+        <div class="sankey-insights">
+
+          <div class="insight-box">
+            <h4>Some states have a clear signature</h4>
+            <p>
+              Red-necked Wallaby strongly characterises Tasmania, Common
+              Wallaroo dominates Northern Territory records, and Western Grey
+              Kangaroo dominates Western Australia.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>Eastern states are more mixed</h4>
+            <p>
+              New South Wales and Queensland divide their observation records
+              across Eastern Grey Kangaroo and several wallaby species rather
+              than being represented by only one species.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>South Australia forms its own profile</h4>
+            <p>
+              Western Grey Kangaroo, Red Kangaroo and Common Wallaroo combine
+              to give South Australia a composition very different from the
+              eastern states.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="takeaway-box sankey-takeaway">
+
+          <h4>
+            State identity comes from composition, not just volume
+          </h4>
+
+          <p>
+            Giving every state equal visual weight reveals relationships
+            that raw observation totals would hide. But those identities are
+            not necessarily fixed.
+          </p>
+
+        </div>
+
+
+        <p class="chart-note">
+          Each state is normalised to 100%, so ribbon width represents
+          composition within a state rather than absolute observation volume.
+        </p>
+
+      </div>
+
+
+
+      <!-- BUMP -->
+
+      <div class="visualisation-card">
+
+        <div class="chart-header">
+
+          <div>
+
+            <h3>
+              Which species have risen or fallen in the national ranking?
+            </h3>
+
+            <p>
+              Species are ranked each year by their total Atlas of Living
+              Australia observation records across Australia.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="bump-story-intro">
+
+          <p>
+            State composition gives each region a distinctive identity,
+            but the national picture also changes through time. Following
+            the rankings reveals which species remain prominent and which
+            move sharply up or down.
+          </p>
+
+        </div>
+
+
+        <div id="bump"></div>
+
+
+        <div class="bump-insights">
+
+          <div class="insight-box">
+            <h4>Eastern Grey takes the lead</h4>
+            <p>
+              Swamp Wallaby ranked first in 2021, but Eastern Grey Kangaroo
+              moved into first place in 2022 and remained there through 2025.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>Western Grey changes sharply</h4>
+            <p>
+              Western Grey Kangaroo ranked third in 2021 and 2022, dropped
+              sharply in 2023, then recovered again by 2025.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>Red Kangaroo falls back</h4>
+            <p>
+              Red Kangaroo moved higher in 2022 before returning toward the
+              bottom of the six species by 2024–2025.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="takeaway-box bump-takeaway">
+
+          <h4>
+            Rankings reveal movement — but hide the size of change
+          </h4>
+
+          <p>
+            Rankings show relative position, but not how many observation
+            records were actually gained or lost. The next chart returns to
+            absolute totals.
+          </p>
+
+        </div>
+
+
+        <p class="chart-note">
+          Rankings are based on annual ALA observation record totals and
+          should not be interpreted as population rankings.
+        </p>
+
+      </div>
+
+
+
+      <!-- CHART 4 -->
 
       <div class="visualisation-card">
 
@@ -426,8 +581,7 @@
 
             <p>
               Total Atlas of Living Australia observation records for the six
-              kangaroo and wallaby species in each state and territory,
-              2021–2025.
+              focal species in each state and territory, 2021–2025.
             </p>
 
           </div>
@@ -438,64 +592,58 @@
         <div id="chart4"></div>
 
 
-
         <div class="chart4-insights">
 
-
           <div class="insight-box">
-
-            <h4>
-              Different trajectories
-            </h4>
-
+            <h4>Different trajectories</h4>
             <p>
-              Observation records do not follow the same pattern in every
-              state. Some states rise over the period, while others fluctuate
-              from year to year.
+              States follow very different recording trends between
+              2021 and 2025.
             </p>
-
           </div>
 
-
           <div class="insight-box">
-
-            <h4>
-              Large state differences
-            </h4>
-
+            <h4>NSW remains the largest</h4>
             <p>
-              New South Wales records far more observations than smaller
-              states and territories, so each panel uses its own vertical
-              scale.
+              New South Wales still records far more observations than
+              smaller states and territories.
             </p>
-
           </div>
 
-
           <div class="insight-box">
-
-            <h4>
-              Recording, not population
-            </h4>
-
+            <h4>Records are not populations</h4>
             <p>
-              Changes over time may reflect differences in wildlife reporting
-              and observation effort as well as changes in where animals
-              were recorded.
+              Changes may reflect observation effort as well as wildlife
+              distribution.
             </p>
-
           </div>
 
         </div>
 
 
+        <div class="takeaway-box">
+
+          <h4>
+            More records do not automatically mean more animals
+          </h4>
+
+          <p>
+            ALA data tells us where and when wildlife was reported, but
+            reporting effort and animal abundance are not the same thing.
+            To move beyond observations, we now turn to official government
+            population estimates.
+          </p>
+
+        </div>
+
+
         <p class="chart-note">
-          Each panel uses an independent y-axis to make within-state changes
-          visible. Observation counts should not be interpreted as direct
-          population estimates.
+          Observation counts should not be interpreted as direct population
+          estimates.
         </p>
 
       </div>
+
 
     </section>
 
@@ -507,26 +655,25 @@
 
     <section class="section">
 
+
       <div class="section-heading">
 
         <h2>
-          03 — Rainfall and Wildlife Records
+          03 — From Observations to Population
         </h2>
 
         <p>
-          Rainfall varies greatly across Australia and from year to year.
-          Comparing rainfall with wildlife records helps explore whether
-          wetter and drier years align with changes in kangaroo and wallaby
-          observations.
+          Atlas of Living Australia records tell us where people reported
+          wildlife, but observation activity is not the same as animal
+          abundance. Government monitoring provides a different perspective:
+          population estimates derived from formal survey programs.
         </p>
 
       </div>
 
 
 
-      <!-- ==================================================
-           CHART 5
-      =================================================== -->
+      <!-- CHART 5 -->
 
       <div class="visualisation-card">
 
@@ -535,16 +682,27 @@
           <div>
 
             <h3>
-              Do wetter years align with more wildlife records?
+              What do official population surveys show?
             </h3>
 
             <p>
-              Annual rainfall compared with Atlas of Living Australia
-              observation records across five Australian regions,
-              2021–2024.
+              Government estimates of monitored macropod populations within
+              commercial harvest areas in five Australian states, 2020–2023.
             </p>
 
           </div>
+
+        </div>
+
+
+        <div class="population-story-intro">
+
+          <p>
+            The previous chart showed changes in observation records.
+            Official monitoring tells a different story: some surveyed
+            populations rise while others fall, and those patterns do not
+            necessarily mirror public wildlife records.
+          </p>
 
         </div>
 
@@ -552,50 +710,76 @@
         <div id="chart5"></div>
 
 
-
         <div class="chart5-insights">
 
-
           <div class="insight-box">
-
-            <h4>
-              No single pattern
-            </h4>
-
+            <h4>Queensland rises strongly</h4>
             <p>
-              The relationship between annual rainfall and observation
-              records differs between regions rather than following one
-              consistent national pattern.
+              Queensland fell in 2021 before climbing to around
+              17.7 million by 2023.
             </p>
-
           </div>
 
-
           <div class="insight-box">
-
-            <h4>
-              Regional differences
-            </h4>
-
+            <h4>NSW peaks before falling</h4>
             <p>
-              Queensland and Western Australia recorded increasing wildlife
-              observations across the period even though rainfall fluctuated
-              between years.
+              New South Wales increased to almost 11.9 million in 2022 before
+              falling to about 9.6 million in 2023.
             </p>
-
           </div>
 
-
           <div class="insight-box">
+            <h4>Western Australia moves downward</h4>
+            <p>
+              Western Australia's monitored population declined from about
+              2.4 million in 2020 to around 1.7 million in 2023.
+            </p>
+          </div>
 
-            <h4>
-              Association, not causation
-            </h4>
+        </div>
+
+
+        <div class="takeaway-box population-takeaway">
+
+          <h4>
+            Observation records and population estimates tell different stories
+          </h4>
+
+          <p>
+            A rise in wildlife reporting does not necessarily mean that the
+            monitored population increased. Government survey data provides
+            the population evidence used for management decisions.
+          </p>
+
+        </div>
+
+
+        <p class="chart-note">
+          DCCEEW population estimates cover surveyed commercial harvest areas,
+          not complete state or national populations.
+        </p>
+
+      </div>
+
+
+
+      <!-- CHART 6 -->
+
+      <div class="visualisation-card">
+
+        <div class="chart-header">
+
+          <div>
+
+            <h3>
+              Where are monitored kangaroo populations concentrated?
+            </h3>
 
             <p>
-              Rainfall may influence habitat conditions, but wildlife records
-              are also affected by reporting effort and where people make
-              observations.
+              A tile grid map of 2023 government population estimates.
+              Each state and territory is given the same visual area, so
+              colour represents monitored population rather than geographic
+              size.
             </p>
 
           </div>
@@ -603,14 +787,454 @@
         </div>
 
 
+        <div class="tile-story-intro">
+
+          <p>
+            The previous chart showed how monitored populations changed
+            through time. Looking at the latest common year reveals how
+            unevenly those surveyed populations are distributed across
+            Australia.
+          </p>
+
+        </div>
+
+
+        <div id="chart6"></div>
+
+
+        <p class="map-interaction-hint">
+          Hover over a coloured tile to see the exact 2023 population
+          estimate.
+        </p>
+
+
+        <div class="chart6-insights">
+
+          <div class="insight-box">
+            <h4>Queensland dominates</h4>
+            <p>
+              Queensland accounts for about half of the combined 2023
+              monitored population across the five states in this dataset.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>NSW is the clear second</h4>
+            <p>
+              New South Wales contributes roughly a quarter of the five-state
+              monitored total, well ahead of the remaining states.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>Equal tiles change the comparison</h4>
+            <p>
+              Western Australia is geographically enormous, but its monitored
+              population is the smallest of the five states. Equal-sized
+              tiles prevent land area from dominating the comparison.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="takeaway-box tile-takeaway">
+
+          <h4>
+            Geographic size and monitored population are very different things
+          </h4>
+
+          <p>
+            The tile grid removes differences in state land area and focuses
+            attention on monitored population. But population monitoring is
+            not only descriptive — it also feeds directly into wildlife
+            management decisions.
+          </p>
+
+        </div>
+
+
         <p class="chart-note">
-          NSW and ACT are combined because the Bureau of Meteorology reports
-          this rainfall series as NSW/ACT. Only 2021–2024 are compared because
-          the rainfall dataset ends in 2024. Observation records are not direct
-          estimates of animal abundance.
+          Population estimates refer to surveyed commercial harvest areas.
+          NT, ACT and TAS are shown for geographic context but do not have
+          directly comparable values in this five-state dataset.
         </p>
 
       </div>
+
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SECTION 04
+    =================================================== -->
+
+    <section class="section">
+
+
+      <div class="section-heading">
+
+        <h2>
+          04 — From Population to Management
+        </h2>
+
+        <p>
+          Population estimates are used to establish sustainable commercial
+          harvest quotas. But a quota is a permitted maximum, not a prediction
+          of how many animals will actually be harvested. Comparing quota and
+          reported harvest reveals how much of that allowance is used.
+        </p>
+
+      </div>
+
+
+
+      <!-- CHART 7 -->
+
+      <div class="visualisation-card">
+
+        <div class="chart-header">
+
+          <div>
+
+            <h3>
+              How much of each sustainable quota was harvested?
+            </h3>
+
+            <p>
+              Reported harvest compared with sustainable quota across five
+              states in the Australian Government's 2024 macropod statistics.
+              A full bar represents 100% of the sustainable quota.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="management-story-intro">
+
+          <p>
+            The monitored population determines how much commercial harvest
+            can be permitted, but the permitted quota is not necessarily
+            reached. The gap between quota and harvest varies substantially
+            between states.
+          </p>
+
+        </div>
+
+
+        <div id="chart7"></div>
+
+
+        <p class="map-interaction-hint">
+          Hover over a bar to compare the sustainable quota with the reported
+          harvest count.
+        </p>
+
+
+        <div class="chart7-insights">
+
+          <div class="insight-box">
+            <h4>Victoria stands out</h4>
+            <p>
+              Victoria recorded harvest equal to 72.7% of its sustainable
+              quota, by far the highest proportion among the five states.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>Most quotas remain largely unused</h4>
+            <p>
+              NSW and WA used roughly one-third of their sustainable quotas,
+              while Queensland and South Australia remained closer to
+              one-fifth.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>The five-state total is only 26.8%</h4>
+            <p>
+              Across all five states, reported harvest amounted to just over
+              one-quarter of the combined sustainable quota.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="takeaway-box management-takeaway">
+
+          <h4>
+            A quota is a ceiling, not a harvest target
+          </h4>
+
+          <p>
+            None of the five states reached its full sustainable quota.
+            But one year alone cannot tell us whether these differences are
+            temporary or part of a longer management pattern.
+          </p>
+
+        </div>
+
+
+        <p class="chart-note">
+          Sustainable quota percentages exclude special quotas.
+        </p>
+
+      </div>
+
+
+
+      <!-- CHART 8 -->
+
+      <div class="visualisation-card">
+
+        <div class="chart-header">
+
+          <div>
+
+            <h3>
+              How consistently do states use their sustainable quotas?
+            </h3>
+
+            <p>
+              Harvest as a percentage of sustainable quota across five
+              Australian states from 2021 to 2024. Darker cells indicate
+              that a larger share of the permitted sustainable quota was
+              harvested.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="harvest-matrix-story-intro">
+
+          <p>
+            The 2024 comparison showed Victoria far ahead of the other states.
+            Looking across four years reveals whether that difference is a
+            one-year exception or a persistent management pattern.
+          </p>
+
+        </div>
+
+
+        <div id="chart8"></div>
+
+
+        <p class="map-interaction-hint">
+          Hover over a cell to see the quota utilisation for that state
+          and year.
+        </p>
+
+
+        <div class="chart8-insights">
+
+          <div class="insight-box">
+            <h4>Victoria remains the highest</h4>
+            <p>
+              Victoria had the highest quota utilisation in every year shown,
+              reaching 72.7% in 2024.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>South Australia stays low</h4>
+            <p>
+              South Australia's reported utilisation remained below 25%
+              throughout the four-year period.
+            </p>
+          </div>
+
+          <div class="insight-box">
+            <h4>Other states move differently</h4>
+            <p>
+              NSW and Western Australia increased in 2024, while Queensland
+              declined from its 2022 level.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="takeaway-box harvest-matrix-takeaway">
+
+          <h4>
+            Quota utilisation has a strong state-level pattern
+          </h4>
+
+          <p>
+            The contrast between states persists across multiple years rather
+            than appearing only in 2024. Yet management is only one part of
+            the story. Wildlife populations also exist within changing
+            environmental conditions.
+          </p>
+
+        </div>
+
+
+        <p class="chart-note">
+          Values show reported harvest as a percentage of sustainable quota.
+          Special quota figures are not included in the reported percentage.
+        </p>
+
+      </div>
+
+
+    </section>
+
+
+
+    <!-- ==================================================
+         SECTION 05
+    =================================================== -->
+
+    <section class="section">
+
+
+      <div class="section-heading">
+
+        <h2>
+          05 — Rainfall and Population
+        </h2>
+
+        <p>
+          Population management happens within a changing environment.
+          Rainfall can influence vegetation, water availability and habitat
+          conditions. Comparing rainfall and population on the same indexed
+          scale helps reveal whether they tend to move together through time.
+        </p>
+
+      </div>
+
+
+
+      <!-- CHART 9 -->
+
+      <div class="visualisation-card">
+
+
+        <div class="chart-header">
+
+          <div>
+
+            <h3>
+              Do population changes move with rainfall?
+            </h3>
+
+            <p>
+              Rainfall and monitored population are indexed to 2020 = 100,
+              allowing their relative changes to be compared on the same
+              scale from 2020 to 2023.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="environment-story-intro">
+
+          <p>
+            A value of 100 represents each state's 2020 level. Values above
+            100 indicate an increase from 2020, while values below 100
+            indicate a decrease. If the two lines move together, rainfall
+            and population changed in the same direction.
+          </p>
+
+        </div>
+
+
+        <div id="chart9"></div>
+
+
+        <p class="map-interaction-hint">
+          The dashed line represents rainfall and the solid line represents
+          monitored population. Hover over a point to see the original value.
+        </p>
+
+
+        <div class="chart9-insights">
+
+
+          <div class="insight-box">
+
+            <h4>
+              NSW moves together most clearly
+            </h4>
+
+            <p>
+              Rainfall and monitored population both increased through 2022
+              before falling below their 2020 levels in 2023.
+            </p>
+
+          </div>
+
+
+          <div class="insight-box">
+
+            <h4>
+              Queensland shows divergence
+            </h4>
+
+            <p>
+              Rainfall increased in 2021 while monitored population fell
+              substantially. By 2023, population rose above its 2020 level
+              even though rainfall had declined from 2022.
+            </p>
+
+          </div>
+
+
+          <div class="insight-box">
+
+            <h4>
+              There is no single national pattern
+            </h4>
+
+            <p>
+              South Australia, Victoria and Western Australia also show years
+              where rainfall and population move differently, suggesting that
+              rainfall alone cannot explain population change.
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="takeaway-box environment-takeaway">
+
+          <h4>
+            Rainfall provides context, not a complete explanation
+          </h4>
+
+          <p>
+            Some states show periods where rainfall and monitored population
+            move together, while others show clear divergence. The comparison
+            reveals association rather than causation: habitat, reproduction,
+            mortality, survey coverage and management may also contribute to
+            population change.
+          </p>
+
+        </div>
+
+
+        <p class="chart-note">
+          Both series are indexed separately within each state using
+          2020 = 100. Population figures are DCCEEW estimates for surveyed
+          commercial harvest areas. Rainfall is Bureau of Meteorology annual
+          area-average rainfall. NSW rainfall uses the NSW/ACT series.
+        </p>
+
+
+      </div>
+
 
     </section>
 
@@ -618,11 +1242,6 @@
 
   </main>
 
-
-
-  <!-- ==================================================
-       JAVASCRIPT
-  =================================================== -->
 
   <script src="js/main.js"></script>
 

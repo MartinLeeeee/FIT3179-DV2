@@ -5,7 +5,6 @@ let map1BaseSpec;
    MAP 1
 ================================================== */
 
-// Load map1 specification
 fetch("specs/map1.json")
   .then(response => {
 
@@ -19,7 +18,6 @@ fetch("specs/map1.json")
   .then(spec => {
 
     map1BaseSpec = spec;
-
     renderMap1("All species");
 
   })
@@ -30,20 +28,14 @@ fetch("specs/map1.json")
   });
 
 
-// Render Map 1
 function renderMap1(selectedSpecies) {
 
-  // Copy the original specification
   const spec = JSON.parse(
     JSON.stringify(map1BaseSpec)
   );
 
-
-  // Second layer contains observation points
   const pointLayer = spec.layer[1];
 
-
-  // Apply species filter
   if (selectedSpecies !== "All species") {
 
     pointLayer.transform.push({
@@ -51,7 +43,6 @@ function renderMap1(selectedSpecies) {
     });
 
   }
-
 
   vegaEmbed(
     "#map1",
@@ -84,7 +75,6 @@ function renderMap1(selectedSpecies) {
 
 const speciesFilter =
   document.getElementById("species-filter");
-
 
 if (speciesFilter) {
 
@@ -153,6 +143,11 @@ vegaEmbed(
 
 });
 
+
+/* ==================================================
+   CHART 4 — OBSERVATION TRENDS
+================================================== */
+
 vegaEmbed(
   "#chart4",
   "specs/chart4.json",
@@ -162,284 +157,204 @@ vegaEmbed(
   }
 )
 .then(() => {
+
   console.log("Chart 4 rendered successfully");
+
 })
 .catch(error => {
-  console.error("Error rendering Chart 4:", error);
+
+  console.error(
+    "Error rendering Chart 4:",
+    error
+  );
+
 });
 
+
 /* ==================================================
-   CHART 5 — RAINFALL VS OBSERVATION RECORDS
+   NORMALISED ALLUVIAL / SANKEY
 ================================================== */
 
-async function renderChart5() {
-
-  try {
-
-    /* ------------------------------------------
-       Load both original CSV files
-    ------------------------------------------ */
-
-    const loader = vega.loader();
-
-
-    const [
-      observationText,
-      rainfallText,
-      chart5Response
-    ] = await Promise.all([
-
-      loader.load(
-        "data/kangaroo_wallaby_state_year_2021_2025.csv"
-      ),
-
-      loader.load(
-        "data/rainfall_2010_2024.csv"
-      ),
-
-      fetch(
-        "specs/chart5.json"
-      )
-
-    ]);
-
-
-    if (!chart5Response.ok) {
-
-      throw new Error(
-        "Could not load specs/chart5.json"
-      );
-
-    }
-
-
-    /* ------------------------------------------
-       Convert CSV text into JavaScript objects
-    ------------------------------------------ */
-
-    const observationData = vega.read(
-      observationText,
-      {
-        type: "csv",
-        parse: "auto"
-      }
-    );
-
-
-    const rainfallData = vega.read(
-      rainfallText,
-      {
-        type: "csv",
-        parse: "auto"
-      }
-    );
-
-
-    const chart5Spec =
-      await chart5Response.json();
-
-
-    /* ------------------------------------------
-       Only regions available in both datasets
-    ------------------------------------------ */
-
-    const allowedRegions = [
-      "NSW/ACT",
-      "VIC",
-      "QLD",
-      "SA",
-      "WA"
-    ];
-
-
-    /* ------------------------------------------
-       Aggregate ALA observations
-
-       NSW + ACT must be combined because
-       BOM provides rainfall as NSW/ACT
-    ------------------------------------------ */
-
-    const observationTotals = {};
-
-
-    observationData.forEach(row => {
-
-      const year = Number(row.Year);
-
-      const observations =
-        Number(row.Observations);
-
-
-      /* Chart 5 only compares 2021–2024 */
-
-      if (
-        year < 2021 ||
-        year > 2024
-      ) {
-        return;
-      }
-
-
-      let region =
-        row.StateCode;
-
-
-      if (
-        region === "NSW" ||
-        region === "ACT"
-      ) {
-
-        region = "NSW/ACT";
-
-      }
-
-
-      if (
-        !allowedRegions.includes(region)
-      ) {
-        return;
-      }
-
-
-      const key =
-        `${year}-${region}`;
-
-
-      if (
-        !observationTotals[key]
-      ) {
-
-        observationTotals[key] = 0;
-
-      }
-
-
-      observationTotals[key] +=
-        observations;
-
-    });
-
-
-    /* ------------------------------------------
-       Join rainfall with observation totals
-    ------------------------------------------ */
-
-    const mergedData = [];
-
-
-    rainfallData.forEach(row => {
-
-      const year =
-        Number(row.Year);
-
-      const region =
-        row.State;
-
-      const rainfall =
-        Number(row.Rainfall_mm);
-
-
-      if (
-        year < 2021 ||
-        year > 2024
-      ) {
-        return;
-      }
-
-
-      if (
-        !allowedRegions.includes(region)
-      ) {
-        return;
-      }
-
-
-      const key =
-        `${year}-${region}`;
-
-
-      if (
-        observationTotals[key] === undefined
-      ) {
-        return;
-      }
-
-
-      mergedData.push({
-
-        Year: year,
-
-        Region: region,
-
-        Rainfall_mm: rainfall,
-
-        Observations:
-          observationTotals[key]
-
-      });
-
-    });
-
-
-    /* ------------------------------------------
-       Debugging
-
-       Should return 20 rows:
-       5 regions × 4 years
-    ------------------------------------------ */
-
-    console.log(
-      "Chart 5 merged data:",
-      mergedData
-    );
-
-
-    console.log(
-      "Chart 5 rows:",
-      mergedData.length
-    );
-
-
-    /* ------------------------------------------
-       Put merged values into chart5.json
-    ------------------------------------------ */
-
-    chart5Spec.data = {
-      values: mergedData
-    };
-
-
-    /* ------------------------------------------
-       Render
-    ------------------------------------------ */
-
-    await vegaEmbed(
-      "#chart5",
-      chart5Spec,
-      {
-        actions: false,
-        renderer: "svg"
-      }
-    );
-
-
-    console.log(
-      "Chart 5 rendered successfully"
-    );
-
-
+vegaEmbed(
+  "#sankey",
+  "specs/sankey.json",
+  {
+    actions: false,
+    renderer: "svg"
   }
+)
+.then(() => {
 
-  catch (error) {
+  console.log("Sankey rendered successfully");
 
-    console.error(
-      "Error rendering Chart 5:",
-      error
-    );
+})
+.catch(error => {
 
+  console.error(
+    "Error rendering Sankey:",
+    error
+  );
+
+});
+
+
+/* ==================================================
+   BUMP CHART — NATIONAL SPECIES RANKING
+================================================== */
+
+vegaEmbed(
+  "#bump",
+  "specs/bump.json",
+  {
+    actions: false,
+    renderer: "svg"
   }
+)
+.then(() => {
 
-}
+  console.log("Bump chart rendered successfully");
+
+})
+.catch(error => {
+
+  console.error(
+    "Error rendering Bump chart:",
+    error
+  );
+
+});
 
 
-renderChart5();
+/* ==================================================
+   CHART 5 — GOVERNMENT POPULATION ESTIMATES
+================================================== */
+
+vegaEmbed(
+  "#chart5",
+  "specs/chart5.json",
+  {
+    actions: false,
+    renderer: "svg"
+  }
+)
+.then(() => {
+
+  console.log("Chart 5 rendered successfully");
+
+})
+.catch(error => {
+
+  console.error(
+    "Error rendering Chart 5:",
+    error
+  );
+
+});
+
+
+/* ==================================================
+   CHART 6 — POPULATION TILE GRID MAP
+================================================== */
+
+vegaEmbed(
+  "#chart6",
+  "specs/chart6.json",
+  {
+    actions: false,
+    renderer: "svg"
+  }
+)
+.then(() => {
+
+  console.log("Chart 6 rendered successfully");
+
+})
+.catch(error => {
+
+  console.error(
+    "Error rendering Chart 6:",
+    error
+  );
+
+});
+
+
+/* ==================================================
+   CHART 7 — QUOTA VS HARVEST BULLET CHART
+================================================== */
+
+vegaEmbed(
+  "#chart7",
+  "specs/chart7.json",
+  {
+    actions: false,
+    renderer: "svg"
+  }
+)
+.then(() => {
+
+  console.log("Chart 7 rendered successfully");
+
+})
+.catch(error => {
+
+  console.error(
+    "Error rendering Chart 7:",
+    error
+  );
+
+});
+
+
+/* ==================================================
+   CHART 8 — HARVEST QUOTA UTILISATION HEATMAP
+================================================== */
+
+vegaEmbed(
+  "#chart8",
+  "specs/chart8.json",
+  {
+    actions: false,
+    renderer: "svg"
+  }
+)
+.then(() => {
+
+  console.log("Chart 8 rendered successfully");
+
+})
+.catch(error => {
+
+  console.error(
+    "Error rendering Chart 8:",
+    error
+  );
+
+});
+
+
+/* ==================================================
+   CHART 9 — RAINFALL × POPULATION
+================================================== */
+
+vegaEmbed(
+  "#chart9",
+  "specs/chart9.json",
+  {
+    actions: false,
+    renderer: "svg"
+  }
+)
+.then(() => {
+
+  console.log("Chart 9 rendered successfully");
+
+})
+.catch(error => {
+
+  console.error(
+    "Error rendering Chart 9:",
+    error
+  );
+
+});
