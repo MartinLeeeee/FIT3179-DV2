@@ -42,19 +42,16 @@
           },
           "axis": {
             "title": null,
-            "labelFontSize": 13,
-            "labelFontWeight": "bold",
-            "labelPadding": 12
+            "labels": false,
+            "ticks": false,
+            "domain": false
           }
         },
         "x": {
           "datum": 1,
           "type": "quantitative",
           "scale": {
-            "domain": [
-              0,
-              1
-            ]
+            "domain": [0, 1]
           },
           "axis": {
             "title": "Harvest as share of sustainable quota",
@@ -75,6 +72,7 @@
         }
       }
     },
+
     {
       "mark": {
         "type": "bar",
@@ -96,10 +94,7 @@
           "field": "HarvestShare",
           "type": "quantitative",
           "scale": {
-            "domain": [
-              0,
-              1
-            ]
+            "domain": [0, 1]
           },
           "axis": null
         },
@@ -130,6 +125,41 @@
         ]
       }
     },
+
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "font": "Arial",
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "color": "#222222"
+      },
+      "encoding": {
+        "y": {
+          "field": "State",
+          "type": "nominal",
+          "sort": {
+            "field": "HarvestPctQuota",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "datum": 0,
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 1]
+          }
+        },
+        "text": {
+          "field": "StateCode",
+          "type": "nominal"
+        }
+      }
+    },
+
     {
       "data": {
         "values": [
@@ -152,14 +182,12 @@
           "field": "Overall",
           "type": "quantitative",
           "scale": {
-            "domain": [
-              0,
-              1
-            ]
+            "domain": [0, 1]
           }
         }
       }
     },
+
     {
       "data": {
         "values": [
@@ -171,7 +199,6 @@
       },
       "mark": {
         "type": "text",
-        "angle": 0,
         "align": "left",
         "baseline": "bottom",
         "dx": 7,
@@ -185,10 +212,7 @@
           "field": "Overall",
           "type": "quantitative",
           "scale": {
-            "domain": [
-              0,
-              1
-            ]
+            "domain": [0, 1]
           }
         },
         "y": {
@@ -199,6 +223,7 @@
         }
       }
     },
+
     {
       "mark": {
         "type": "text",
@@ -223,10 +248,7 @@
           "field": "HarvestShare",
           "type": "quantitative",
           "scale": {
-            "domain": [
-              0,
-              1
-            ]
+            "domain": [0, 1]
           }
         },
         "text": {
@@ -236,6 +258,14 @@
       }
     }
   ],
+
+  "padding": {
+    "left": 70,
+    "right": 30,
+    "top": 10,
+    "bottom": 10
+  },
+
   "config": {
     "background": "#fbf9f4",
     "view": {

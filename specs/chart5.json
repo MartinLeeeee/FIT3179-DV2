@@ -3,16 +3,21 @@
 
   "data": {
     "url": "data/dcceew_population_2020_2023.csv",
-
     "format": {
       "type": "csv",
-
       "parse": {
         "Year": "number",
         "Population": "number"
       }
     }
   },
+
+  "transform": [
+    {
+      "calculate": "format(datum.Population / 1000000, '.2f') + 'M'",
+      "as": "PopulationLabel"
+    }
+  ],
 
   "facet": {
     "field": "StateCode",
@@ -33,22 +38,22 @@
       "labelFontSize": 16,
       "labelFontWeight": "bold",
       "labelColor": "#222222",
-      "labelPadding": 10
+      "labelPadding": 12
     }
   },
 
   "columns": 3,
 
   "spec": {
-    "width": 260,
-    "height": 190,
+    "width": 250,
+    "height": 210,
 
     "layer": [
 
       {
         "mark": {
           "type": "line",
-          "strokeWidth": 3.5,
+          "strokeWidth": 3,
           "color": "#657b62"
         },
 
@@ -56,30 +61,23 @@
 
           "x": {
             "field": "Year",
-            "type": "quantitative",
+            "type": "ordinal",
+            "title": null,
 
-            "scale": {
-              "domain": [
-                2020,
-                2023
-              ]
-            },
+            "sort": [
+              2020,
+              2021,
+              2022,
+              2023
+            ],
 
             "axis": {
-              "title": null,
-
-              "values": [
-                2020,
-                2021,
-                2022,
-                2023
-              ],
-
-              "format": "d",
-
               "labelAngle": 0,
-              "labelFontSize": 11,
-
+              "labelFont": "Arial",
+              "labelFontSize": 10,
+              "labelColor": "#222222",
+              "domain": false,
+              "ticks": false,
               "grid": false
             }
           },
@@ -88,18 +86,68 @@
             "field": "Population",
             "type": "quantitative",
 
+            "title": "Estimated population",
+
+            "scale": {
+              "domain": [
+                0,
+                20000000
+              ],
+              "nice": false
+            },
+
             "axis": {
-              "title": "Estimated population",
-              "format": "~s",
-              "labelFontSize": 10,
-              "titleFontSize": 11,
+              "values": [
+                0,
+                5000000,
+                10000000,
+                15000000,
+                20000000
+              ],
+
+              "labelExpr": "datum.value == 0 ? '0M' : format(datum.value / 1000000, '.0f') + 'M'",
 
               "grid": true,
-              "gridColor": "#e5e0d7",
-              "gridOpacity": 0.8
-            }
-          }
+              "gridColor": "#e4ded3",
+              "gridOpacity": 0.8,
 
+              "domain": false,
+              "ticks": false,
+
+              "labelFont": "Arial",
+              "labelFontSize": 10,
+              "labelColor": "#222222",
+
+              "titleFont": "Arial",
+              "titleFontSize": 11,
+              "titleColor": "#222222",
+              "titlePadding": 8
+            }
+          },
+
+          "order": {
+            "field": "Year",
+            "type": "quantitative"
+          },
+
+          "tooltip": [
+            {
+              "field": "State",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "Year",
+              "type": "ordinal",
+              "title": "Year"
+            },
+            {
+              "field": "Population",
+              "type": "quantitative",
+              "title": "Estimated population",
+              "format": ","
+            }
+          ]
         }
       },
 
@@ -107,7 +155,7 @@
         "mark": {
           "type": "point",
           "filled": true,
-          "size": 105,
+          "size": 85,
           "color": "#657b62",
           "stroke": "#fbf9f4",
           "strokeWidth": 1.5
@@ -117,36 +165,45 @@
 
           "x": {
             "field": "Year",
-            "type": "quantitative"
+            "type": "ordinal",
+            "sort": [
+              2020,
+              2021,
+              2022,
+              2023
+            ]
           },
 
           "y": {
             "field": "Population",
-            "type": "quantitative"
+            "type": "quantitative",
+
+            "scale": {
+              "domain": [
+                0,
+                20000000
+              ],
+              "nice": false
+            }
           },
 
           "tooltip": [
-
             {
               "field": "State",
               "type": "nominal",
               "title": "State"
             },
-
             {
               "field": "Year",
-              "type": "quantitative",
-              "title": "Survey year",
-              "format": "d"
+              "type": "ordinal",
+              "title": "Year"
             },
-
             {
               "field": "Population",
               "type": "quantitative",
               "title": "Estimated population",
               "format": ","
             }
-
           ]
         }
       },
@@ -154,7 +211,7 @@
       {
         "transform": [
           {
-            "filter": "datum.Year === 2023"
+            "filter": "datum.Year == 2023"
           }
         ],
 
@@ -163,7 +220,8 @@
           "align": "left",
           "baseline": "middle",
           "dx": 8,
-          "dy": -8,
+          "dy": -7,
+          "font": "Arial",
           "fontSize": 10,
           "fontWeight": "bold",
           "color": "#55514a"
@@ -173,20 +231,32 @@
 
           "x": {
             "field": "Year",
-            "type": "quantitative"
+            "type": "ordinal",
+            "sort": [
+              2020,
+              2021,
+              2022,
+              2023
+            ]
           },
 
           "y": {
             "field": "Population",
-            "type": "quantitative"
+            "type": "quantitative",
+
+            "scale": {
+              "domain": [
+                0,
+                20000000
+              ],
+              "nice": false
+            }
           },
 
           "text": {
-            "field": "Population",
-            "type": "quantitative",
-            "format": ".3s"
+            "field": "PopulationLabel",
+            "type": "nominal"
           }
-
         }
       }
 
@@ -195,7 +265,8 @@
 
   "resolve": {
     "scale": {
-      "y": "independent"
+      "x": "independent",
+      "y": "shared"
     }
   },
 
